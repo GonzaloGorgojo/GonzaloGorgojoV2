@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-text-color: #64ffda;
+  --main-bg-color: #1e1c49;
+  --alternative-text-color: #ccd6f6;
+  --background-hover-color: #4c584c;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/*Social links*/
+.social-links {
+  color: var(--alternative-text-color);
+  font-size: large;
+  margin: 10px;
+}
+.social-links:hover {
+  color: var(--main-text-color);
+  font-size: x-large;
+}
+
+/* Page Index*/
+.index-circle {
+  border-color: var(--main-text-color);
+  border-width: 1.5px;
+  margin: 12px 10px 17px 10px;
+  width: 17px;
+  height: 17px;
+}
+.index-circle:hover {
+  background-color: var(--background-hover-color);
+}
+
+.index-top-line {
+  width: 1.5px;
+  height: 18px;
+  background-color: var(--main-text-color);
+  position: absolute;
+  left: 18px;
+  top: 29px;
+}
+
+.index-bottom-line {
+  width: 1.5px;
+  height: 18px;
+  background-color: var(--main-text-color);
+  position: absolute;
+  left: 18px;
+  top: 63px;
+}
+
+/*Header component styles*/
+.header-container {
+  background-color: var(--main-bg-color);
+}
+
+.header-title {
+  color: var(--alternative-text-color);
+}
+.header-title span {
+  color: var(--main-text-color);
+}
+
+.header-content {
+  color: var(--alternative-text-color);
+}
+.header-content span {
+  color: var(--main-text-color);
+}
+
+.header-resume {
+  color: var(--main-text-color);
+}
+
+.header-resume:hover {
+  background-color: var(--background-hover-color);
+}
