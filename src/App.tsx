@@ -1,3 +1,4 @@
+import WorkExperience from './components/experience/experience';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import PageIndex from './components/page-index/pageIndex';
@@ -9,6 +10,7 @@ function App(): JSX.Element {
       <PageIndex />
       <ContactLinks />
       <Header />
+      <WorkExperience />
       <Footer />
     </div>
   );

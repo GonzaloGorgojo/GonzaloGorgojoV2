@@ -5,7 +5,7 @@ import RESUMEPDF from '@/assets/resume.pdf';
 function Header(): JSX.Element {
   return (
     <div
-      id="header-container"
+      id="about"
       className="header-container container flex flex-col h-screen justify-center items-center "
     >
       <div className="header-resume border-2 border-emerald-300 rounded p-1 absolute top-3 right-3">

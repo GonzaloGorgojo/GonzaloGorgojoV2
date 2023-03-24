@@ -6,6 +6,7 @@
   --main-text-color: #64ffda;
   --main-bg-color: #1e1c49;
   --alternative-text-color: #ccd6f6;
+  --alternative-bg-color: #263a7d;
   --background-hover-color: #4c584c;
 }
 
@@ -79,4 +80,13 @@
 
 .header-resume:hover {
   background-color: var(--background-hover-color);
+}
+
+/*Experience component style*/
+.experience-container {
+  background-color: var(--main-bg-color);
+}
+
+.experience-company-link:hover {
+  color: var(--main-text-color);
 }

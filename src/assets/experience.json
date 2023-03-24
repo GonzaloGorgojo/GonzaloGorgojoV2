@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "position": "Full Stack Developer",
+    "company": "Blanc Labs",
+    "companyLink": "https://blanclabs.com/",
+    "description": [
+      "Developing a mobile app with React Native.",
+      "Developing microservices with NestJs and Typescript.",
+      "Building front-end with VueJs."
+    ],
+    "start": "Feb 2022",
+    "end": "Present"
+  },
+  {
+    "id": 2,
+    "position": "Freelance React Native Developer",
+    "company": "Simple Solutions",
+    "companyLink": "https://simplesolutions.com.ar/",
+    "description": [
+      "Development, maintenance and improvements in a React Native App."
+    ],
+    "start": "Jun 2021",
+    "end": "Oct 2022"
+  },
+  {
+    "id": 3,
+    "position": "Back End Developer",
+    "company": "Redbee",
+    "companyLink": "https://redbee.io/en/",
+    "description": [
+      "Developed microservices with NodeJs and Typescript.",
+      "Developed microservices with Kotlin.",
+      "Test automation with cypress."
+    ],
+    "start": "Apr 2021",
+    "end": "Feb 2022"
+  },
+  {
+    "id": 4,
+    "position": "Software Developer",
+    "company": "Simple Solutions",
+    "companyLink": "https://simplesolutions.com.ar/",
+    "description": [
+      "API Development with Node Js.",
+      "Development of Cloud Function querying Cloud SQL in Google Cloud Platform.",
+      "Maintenance and improvements in a REACT-NATIVE app."
+    ],
+    "start": "Aug 2020",
+    "end": "Apr 2021"
+  }
+]
