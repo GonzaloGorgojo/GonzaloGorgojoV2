@@ -24,12 +24,21 @@ function PageIndex(): JSX.Element {
             }}
           />
         </a>
-        <div className="index-bottom-line" />
-        <a href="#education" onClick={() => setIsActive(3)}>
+        <div className="index-middle-line" />
+        <a href="#projects" onClick={() => setIsActive(3)}>
           <div
             className="index-circle rounded-full"
             style={{
               backgroundColor: isActive === 3 ? COLORS.mainTextColor : '',
+            }}
+          />
+        </a>
+        <div className="index-bottom-line" />
+        <a href="#education" onClick={() => setIsActive(4)}>
+          <div
+            className="index-circle rounded-full"
+            style={{
+              backgroundColor: isActive === 4 ? COLORS.mainTextColor : '',
             }}
           />
         </a>

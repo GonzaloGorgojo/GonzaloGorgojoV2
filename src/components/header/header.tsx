@@ -1,6 +1,6 @@
 import { ReactTypical } from '@deadcoder0904/react-typical';
-import Avatar from '@/assets/gon.jpg';
-import RESUMEPDF from '@/assets/resume.pdf';
+import Avatar from 'src/assets/gon.jpg';
+import RESUMEPDF from 'src/assets/resume.pdf';
 
 function Header(): JSX.Element {
   return (
@@ -27,7 +27,7 @@ function Header(): JSX.Element {
           steps={[
             'I Destroy 🖥️',
             1500,
-            'Ups..',
+            'I Ups..',
             1500,
             'I Build Software 🤠',
             3000,

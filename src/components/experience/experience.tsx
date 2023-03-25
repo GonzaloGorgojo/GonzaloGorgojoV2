@@ -16,6 +16,13 @@ function WorkExperience(): JSX.Element {
       id="experience"
       className="experience-container container flex flex-col justify-center items-center "
     >
+      <div className="experience-line" />
+      <h2
+        className="text-2xl mb-3"
+        style={{ color: COLORS.alternativeTextColor }}
+      >
+        Where I&apos;ve Worked
+      </h2>
       <div className="w-3/4">
         <VerticalTimeline lineColor={`${COLORS.alternativeTextColor}`}>
           {experience.map((e) => {
@@ -64,6 +71,7 @@ function WorkExperience(): JSX.Element {
           })}
         </VerticalTimeline>
       </div>
+      <div className="experience-line" />
     </div>
   );
 }

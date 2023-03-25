@@ -1,8 +1,9 @@
 import WorkExperience from './components/experience/experience';
-import Footer from './components/footer/footer';
+import Education from './components/education/education';
 import Header from './components/header/header';
 import PageIndex from './components/page-index/pageIndex';
 import ContactLinks from './components/social/contact';
+import ProjectScreen from './screens/projects/projects.screen';
 
 function App(): JSX.Element {
   return (
@@ -11,7 +12,8 @@ function App(): JSX.Element {
       <ContactLinks />
       <Header />
       <WorkExperience />
-      <Footer />
+      <ProjectScreen />
+      <Education />
     </div>
   );
 }

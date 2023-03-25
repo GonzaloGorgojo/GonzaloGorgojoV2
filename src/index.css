@@ -46,13 +46,22 @@
   top: 29px;
 }
 
-.index-bottom-line {
+.index-middle-line {
   width: 1.5px;
   height: 18px;
   background-color: var(--main-text-color);
   position: absolute;
   left: 18px;
   top: 63px;
+}
+
+.index-bottom-line {
+  width: 1.5px;
+  height: 18px;
+  background-color: var(--main-text-color);
+  position: absolute;
+  left: 18px;
+  top: 97px;
 }
 
 /*Header component styles*/
@@ -89,4 +98,43 @@
 
 .experience-company-link:hover {
   color: var(--main-text-color);
+}
+
+.experience-line {
+  width: 75%;
+  height: 1px;
+  background-color: var(--alternative-text-color);
+  margin: 5px 0px 5px 0px;
+  opacity: 0.5;
+}
+
+/* screens/projects/projects */
+.projects-container {
+  background-color: var(--main-bg-color);
+}
+
+/* components/projects/TitleButton */
+.projects-button-active {
+  color: var(--main-text-color);
+  border: solid 1px var(--main-text-color);
+  border-radius: 10px;
+}
+.projects-button-inactive {
+  color: var(--alternative-text-color);
+  border: solid 1px var(--alternative-text-color);
+  border-radius: 10px;
+}
+.projects-button-inactive:hover {
+  color: var(--main-text-color);
+}
+
+/* components/projects/Projectcard */
+.projects-card {
+  border: 1px solid var(--main-text-color);
+  border-radius: 5px;
+  margin: 0.4rem;
+  padding: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

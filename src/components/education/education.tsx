@@ -1,4 +1,4 @@
-function Footer(): JSX.Element {
+function Education(): JSX.Element {
   return (
     <div
       id="education"
@@ -9,4 +9,4 @@ function Footer(): JSX.Element {
   );
 }
 
-export default Footer;
+export default Education;

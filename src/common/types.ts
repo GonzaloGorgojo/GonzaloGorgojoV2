@@ -1,3 +1,5 @@
+import { ProjectTagEnum } from 'src/common/enums';
+
 export interface Experience {
   id: number;
   position: string;
@@ -6,4 +8,13 @@ export interface Experience {
   description: string[];
   start: string;
   end: string;
+}
+
+export interface Project {
+  id: number;
+  tag: ProjectTagEnum;
+  technologies: string[];
+  description: string;
+  demoLink?: string;
+  repoLink: string;
 }
