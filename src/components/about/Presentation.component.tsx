@@ -1,19 +1,9 @@
-import { ReactTypical } from '@deadcoder0904/react-typical';
 import Avatar from 'src/assets/gon.jpg';
-import RESUMEPDF from 'src/assets/resume.pdf';
+import { ReactTypical } from '@deadcoder0904/react-typical';
 
-function Header(): JSX.Element {
+function Presentation() {
   return (
-    <div
-      id="about"
-      className="header-container container flex flex-col h-screen justify-center items-center "
-    >
-      <div className="header-resume border-2 border-emerald-300 rounded p-1 absolute top-3 right-3">
-        <a href={RESUMEPDF} target="_blank" rel="noreferrer">
-          <p>Resume</p>
-        </a>
-      </div>
-
+    <>
       <div className="w-1/5 my-3">
         <img src={Avatar} className="h-auto max-w-full" alt="" />
       </div>
@@ -39,8 +29,8 @@ function Header(): JSX.Element {
           sports, and continuing to learn in my field.
         </p>
       </div>
-    </div>
+    </>
   );
 }
 
-export default Header;
+export default Presentation;

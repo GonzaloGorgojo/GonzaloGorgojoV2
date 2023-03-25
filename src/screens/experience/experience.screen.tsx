@@ -8,7 +8,7 @@ import experienceData from '../../assets/experience.json';
 import { Experience } from '../../common/types';
 import COLORS from '../../common/colors';
 
-function WorkExperience(): JSX.Element {
+function ExperienceScreen(): JSX.Element {
   const experience: Experience[] = experienceData;
 
   return (
@@ -76,4 +76,4 @@ function WorkExperience(): JSX.Element {
   );
 }
 
-export default WorkExperience;
+export default ExperienceScreen;
