@@ -5,7 +5,7 @@ function PageIndex(): JSX.Element {
   const [isActive, setIsActive] = useState(1);
 
   return (
-    <div className="flex flex-col items-start fixed left-2 top-1/2 w-1/4">
+    <div className="flex flex-col fixed left-2 top-1/2">
       <div className="relative">
         <a href="#about" onClick={() => setIsActive(1)}>
           <div

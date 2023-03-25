@@ -24,14 +24,7 @@ function Header(): JSX.Element {
         </h1>
         <ReactTypical
           className="header-title"
-          steps={[
-            'I Destroy 🖥️',
-            1500,
-            'I Ups..',
-            1500,
-            'I Build Software 🤠',
-            3000,
-          ]}
+          steps={['I Destroy.. Ups', 2000, 'I Build Software 🤠', 3000]}
           loop={Infinity}
           wrapper="h4"
         />

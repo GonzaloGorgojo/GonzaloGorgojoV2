@@ -18,7 +18,7 @@ function ProjectScreen(): JSX.Element {
   return (
     <div
       id="projects"
-      className="projects-container container flex flex-col justify-center items-center h-screen py-3"
+      className="projects-container container flex flex-col items-center h-screen py-3"
     >
       <h2
         className="text-2xl mb-3"

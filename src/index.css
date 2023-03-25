@@ -12,6 +12,7 @@
 
 * {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 /*Social links*/
@@ -130,11 +131,33 @@
 
 /* components/projects/Projectcard */
 .projects-card {
-  border: 1px solid var(--main-text-color);
+  border: 1px solid var(--alternative-text-color);
   border-radius: 5px;
   margin: 0.4rem;
   padding: 0.1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  background-color: var(--alternative-bg-color);
+}
+.projects-card-title {
+  color: var(--main-text-color);
+  font-weight: bolder;
+}
+.projects-card-technos {
+  color: var(--alternative-text-color);
+}
+.projects-icon-link {
+  color: var(--alternative-text-color);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+.projects-icon-link:hover {
+  color: var(--main-text-color);
+}
+.projects-icon-title {
+  color: var(--main-text-color);
+  text-align: center;
 }

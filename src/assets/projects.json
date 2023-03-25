@@ -4,53 +4,53 @@
     "tag": "Mobile",
     "technologies": ["React Native", "Expo"],
     "description": "ToDo list",
-    "demoLink": "www.google.com",
-    "repoLink": "www.google.com"
+    "demoLink": "https://www.google.com/",
+    "repoLink": "https://www.google.com/"
   },
   {
     "id": 2,
     "tag": "Mobile",
-    "technologies": ["React native, Typescript", "Expo"],
+    "technologies": ["React native", "Expo", "Typescript"],
     "description": "Movies tracker App",
-    "demoLink": "www.google.com",
-    "repoLink": "www.google.com"
+    "demoLink": "https://www.google.com/",
+    "repoLink": "https://www.google.com/"
   },
   {
     "id": 3,
     "tag": "Front End",
-    "technologies": ["React, Typescript", "Vite"],
+    "technologies": ["React", "Typescript", "Vite"],
     "description": "Super Front app",
-    "demoLink": "www.google.com",
-    "repoLink": "www.google.com"
+    "demoLink": "https://www.google.com/",
+    "repoLink": "https://www.google.com/"
   },
   {
     "id": 4,
     "tag": "Front End",
-    "technologies": ["React, Typescript", "Vite"],
+    "technologies": ["React", "Typescript", "Vite"],
     "description": "Ultra front app",
-    "repoLink": "www.google.com"
+    "repoLink": "https://www.google.com/"
   },
   {
     "id": 5,
     "tag": "Back End",
-    "technologies": ["Node, Nestjs", "Typescript"],
+    "technologies": ["Node", "Nestjs", "Typescript"],
     "description": "Super back app",
-    "demoLink": "www.google.com",
-    "repoLink": "www.google.com"
+    "demoLink": "https://www.google.com/",
+    "repoLink": "https://www.google.com/"
   },
   {
     "id": 6,
     "tag": "Back End",
-    "technologies": ["Node, Nestjs", "Typescript"],
+    "technologies": ["Node", "Nestjs", "Typescript"],
     "description": "Super back app",
-    "demoLink": "www.google.com",
-    "repoLink": "www.google.com"
+    "demoLink": "https://www.google.com/",
+    "repoLink": "https://www.google.com/"
   },
   {
     "id": 7,
     "tag": "Back End",
-    "technologies": ["Node, Nestjs", "Typescript"],
+    "technologies": ["Node", "Nestjs", "Typescript"],
     "description": "Super back app",
-    "repoLink": "www.google.com"
+    "repoLink": "https://www.google.com/"
   }
 ]

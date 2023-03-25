@@ -1,9 +1,9 @@
-import WorkExperience from './components/experience/experience';
-import Education from './components/education/education';
-import Header from './components/header/header';
-import PageIndex from './components/page-index/pageIndex';
-import ContactLinks from './components/social/contact';
-import ProjectScreen from './screens/projects/projects.screen';
+import WorkExperience from 'src/components/experience/experience';
+import Education from 'src/components/education/education';
+import Header from 'src/components/header/header';
+import ContactLinks from 'src/components/social/ContantLinks.component';
+import ProjectScreen from 'src/screens/projects/projects.screen';
+import PageIndex from 'src/components/page-index/PageIndex.component';
 
 function App(): JSX.Element {
   return (
