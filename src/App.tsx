@@ -1,9 +1,9 @@
-import Education from 'src/components/education/education';
 import ContactLinks from 'src/components/social/ContantLinks.component';
 import ProjectScreen from 'src/screens/projects/projects.screen';
 import PageIndex from 'src/components/page-index/PageIndex.component';
 import AboutScreen from 'src/screens/about/about.screen';
-import ExperienceScreen from './screens/experience/experience.screen';
+import ExperienceScreen from 'src/screens/experience/experience.screen';
+import FooterScreen from 'src/screens/footer/footer.screen';
 
 function App(): JSX.Element {
   return (
@@ -13,7 +13,7 @@ function App(): JSX.Element {
       <AboutScreen />
       <ExperienceScreen />
       <ProjectScreen />
-      <Education />
+      <FooterScreen />
     </div>
   );
 }

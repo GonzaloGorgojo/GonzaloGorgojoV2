@@ -5,7 +5,7 @@ function AboutScreen() {
   return (
     <div
       id="about"
-      className="header-container container flex flex-col h-screen justify-center items-center "
+      className="about-container container flex flex-col h-screen justify-center items-center"
     >
       <ResumeButton />
       <Presentation />

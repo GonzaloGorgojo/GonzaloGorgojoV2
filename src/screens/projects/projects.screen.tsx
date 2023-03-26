@@ -5,6 +5,7 @@ import projectsData from 'src/assets/projects.json';
 import { Project } from 'src/common/types';
 import { ProjectTagEnum } from 'src/common/enums';
 import { useState } from 'react';
+import DividierLine from 'src/components/common/DividerLine.component';
 
 function ProjectScreen(): JSX.Element {
   const [projectsTag, setProjectsTag] = useState<ProjectTagEnum>(
@@ -18,10 +19,12 @@ function ProjectScreen(): JSX.Element {
   return (
     <div
       id="projects"
-      className="projects-container container flex flex-col items-center h-screen py-3"
+      className="projects-container container flex flex-col items-center py-3"
     >
+      <DividierLine />
+
       <h2
-        className="text-2xl mb-3"
+        className="text-xl mb-3"
         style={{ color: COLORS.alternativeTextColor }}
       >
         What I&apos;ve Built

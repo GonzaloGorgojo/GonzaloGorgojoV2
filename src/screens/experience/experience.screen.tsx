@@ -4,9 +4,10 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { BsLaptop } from 'react-icons/bs';
-import experienceData from '../../assets/experience.json';
-import { Experience } from '../../common/types';
-import COLORS from '../../common/colors';
+import experienceData from 'src/assets/experience.json';
+import { Experience } from 'src/common/types';
+import COLORS from 'src/common/colors';
+import DividierLine from 'src/components/common/DividerLine.component';
 
 function ExperienceScreen(): JSX.Element {
   const experience: Experience[] = experienceData;
@@ -16,9 +17,9 @@ function ExperienceScreen(): JSX.Element {
       id="experience"
       className="experience-container container flex flex-col justify-center items-center "
     >
-      <div className="experience-line" />
+      <DividierLine />
       <h2
-        className="text-2xl mb-3"
+        className="text-xl mb-3"
         style={{ color: COLORS.alternativeTextColor }}
       >
         Where I&apos;ve Worked
@@ -71,7 +72,6 @@ function ExperienceScreen(): JSX.Element {
           })}
         </VerticalTimeline>
       </div>
-      <div className="experience-line" />
     </div>
   );
 }

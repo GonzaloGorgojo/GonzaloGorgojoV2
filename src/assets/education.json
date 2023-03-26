@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "institution": "Teclab",
+    "certificationLink": "https://www.teclab.edu.ar/carrera/tecnico-superior-en-programacion/",
+    "date": "Jan 2020 - Nov 2022",
+    "description": "Associate Degree in Computer Programming"
+  },
+  {
+    "id": 2,
+    "institution": "Amazon Web Services",
+    "certificationLink": "https://www.credly.com/badges/c28ebb2c-c1f7-44fa-9957-158a09763347?source=linked_in_profile",
+    "date": "Jul 2022",
+    "description": "AWS Certified Cloud Practitioner"
+  },
+  {
+    "id": 3,
+    "institution": "FreeCodeCamp",
+    "certificationLink": "https://www.freecodecamp.org/certification/gongorgojo/javascript-algorithms-and-data-structures",
+    "date": "May 2021",
+    "description": "JavaScript Algorithms and Data Structures"
+  },
+  {
+    "id": 4,
+    "institution": "CoderHouse",
+    "certificationLink": "https://drive.google.com/file/d/107a7vGOEc4PjIXI4QCPPYfBpn0ec0Tgi/view",
+    "date": "Nov 2020",
+    "description": "Javascript"
+  },
+  {
+    "id": 5,
+    "institution": "EducacionIt",
+    "certificationLink": "https://drive.google.com/file/d/1iTdSr7r7eNL2qBiCkhSFUUZ6OxK6_KxH/view",
+    "date": "May 2020",
+    "description": "Database Administration and SQL"
+  },
+  {
+    "id": 6,
+    "institution": "FreeCodeCamp",
+    "certificationLink": "https://www.freecodecamp.org/certification/gongorgojo/responsive-web-design",
+    "date": "Apr 2019",
+    "description": "Responsive Web Design"
+  }
+]

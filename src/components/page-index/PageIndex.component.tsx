@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import COLORS from '../../common/colors';
+import COLORS from 'src/common/colors';
 
 function PageIndex(): JSX.Element {
   const [isActive, setIsActive] = useState(1);
@@ -34,7 +34,7 @@ function PageIndex(): JSX.Element {
           />
         </a>
         <div className="index-bottom-line" />
-        <a href="#education" onClick={() => setIsActive(4)}>
+        <a href="#footer" onClick={() => setIsActive(4)}>
           <div
             className="index-circle rounded-full"
             style={{
