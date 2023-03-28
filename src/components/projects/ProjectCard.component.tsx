@@ -18,7 +18,7 @@ function ProjectCard(props: Props) {
       <h3 className="projects-card-title">{description}</h3>
       <p className="projects-card-technos">
         {technologies.map((t) => (
-          <li key={t}>{t}</li>
+          <p key={t}>- {t}</p>
         ))}
       </p>
       <div className="flex flex-row  w-full justify-around mt-2 mb-1">

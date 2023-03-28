@@ -3,54 +3,54 @@
     "id": 1,
     "tag": "Mobile",
     "technologies": ["React Native", "Expo"],
-    "description": "ToDo list",
+    "description": "Movies reviews APP",
     "demoLink": "https://www.google.com/",
     "repoLink": "https://www.google.com/"
   },
   {
     "id": 2,
-    "tag": "Mobile",
-    "technologies": ["React native", "Expo", "Typescript", "Android"],
-    "description": "Movies tracker App",
-    "demoLink": "https://www.google.com/",
-    "repoLink": "https://www.google.com/"
+    "tag": "Front End",
+    "technologies": ["React", "React-Bootstrap", "React-Router"],
+    "description": "Burger review App",
+    "demoLink": "https://gonzalogorgojo.github.io/react-burger-review/",
+    "repoLink": "https://github.com/GonzaloGorgojo/react-burger-review"
   },
   {
     "id": 3,
     "tag": "Front End",
     "technologies": ["React", "Typescript", "Vite"],
-    "description": "Super Front app",
-    "demoLink": "https://www.google.com/",
-    "repoLink": "https://www.google.com/"
+    "description": "Portfolio V1",
+    "demoLink": "https://gonzalogorgojo.github.io/GonzaloGorgojoV1/",
+    "repoLink": "https://github.com/GonzaloGorgojo/GonzaloGorgojoV1"
   },
   {
     "id": 4,
     "tag": "Front End",
-    "technologies": ["React", "Typescript", "Vite"],
-    "description": "Ultra front app",
-    "repoLink": "https://www.google.com/"
+    "technologies": ["javascript", "Bootstrap"],
+    "description": "Pokedex",
+    "demoLink": "https://gonzalogorgojo.github.io/js-pokedex/",
+    "repoLink": "https://github.com/GonzaloGorgojo/js-pokedex"
   },
   {
     "id": 5,
     "tag": "Back End",
-    "technologies": ["Node", "Nestjs", "Typescript"],
-    "description": "Super back app",
-    "demoLink": "https://www.google.com/",
-    "repoLink": "https://www.google.com/"
+    "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
+    "description": "Users management API",
+    "repoLink": "https://github.com/GonzaloGorgojo/nest-experience-api"
   },
   {
     "id": 6,
     "tag": "Back End",
-    "technologies": ["Node", "Nestjs", "Typescript"],
-    "description": "Super back app",
-    "demoLink": "https://www.google.com/",
-    "repoLink": "https://www.google.com/"
+    "technologies": ["Node", "ExpressJs", "MongoDb", "Mongoose"],
+    "description": "Burger review API",
+    "demoLink": "https://burger-reviews.onrender.com/api/documentation/",
+    "repoLink": "https://github.com/GonzaloGorgojo/express-burger-review-api"
   },
   {
     "id": 7,
     "tag": "Back End",
-    "technologies": ["Node", "Nestjs", "Typescript"],
-    "description": "Super back app",
-    "repoLink": "https://www.google.com/"
+    "technologies": ["Typescript", "Express", "Mongo", "Docker"],
+    "description": "Contacts management API",
+    "repoLink": "https://github.com/GonzaloGorgojo/ts-contacts-api"
   }
 ]
