@@ -7,7 +7,7 @@ import PagePositionContext from 'src/context/PagePosition.context';
 
 function AboutScreen() {
   const aboutRef = useRef(null);
-  const isInViewport = useIsInViewport(aboutRef, '-10%');
+  const isInViewport = useIsInViewport(aboutRef, '10%');
   const { setCurrentPosition } = useContext(PagePositionContext);
 
   useEffect(() => {
