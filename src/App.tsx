@@ -13,7 +13,7 @@ function App(): JSX.Element {
     useState<PagePositionEnum | null>(null);
 
   return (
-    <div className="container">
+    <div className="w-full">
       <PagePositionContext.Provider
         value={{
           currentPosition,

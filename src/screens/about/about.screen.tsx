@@ -20,7 +20,7 @@ function AboutScreen() {
     <div
       ref={aboutRef}
       id="about"
-      className="about-container container flex flex-col h-screen justify-center items-center"
+      className="about-container flex flex-col h-screen justify-center items-center"
     >
       <ResumeButton />
       <Presentation />

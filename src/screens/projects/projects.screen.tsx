@@ -33,7 +33,7 @@ function ProjectScreen(): JSX.Element {
     <div
       ref={projectsRef}
       id="projects"
-      className="projects-container container flex flex-col items-center py-3"
+      className="projects-container flex flex-col items-center py-3"
     >
       <DividierLine />
 

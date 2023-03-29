@@ -22,7 +22,7 @@ function FooterScreen() {
   return (
     <div
       ref={footerRef}
-      className="experience-container flex flex-col justify-center items-center"
+      className="footer-container flex flex-col justify-center items-center"
     >
       <DividierLine />
       <Skills />

@@ -168,3 +168,9 @@
   border-radius: 10px;
   font-size: 0.9rem;
 }
+
+/* screens/footer/footer */
+
+.footer-container {
+  background-color: var(--main-bg-color);
+}

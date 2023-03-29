@@ -29,7 +29,7 @@ function ExperienceScreen(): JSX.Element {
   return (
     <div
       id="experience"
-      className="experience-container container flex flex-col justify-center items-center "
+      className="experience-container flex flex-col justify-center items-center "
     >
       <DividierLine />
       <h2
