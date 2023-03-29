@@ -3,9 +3,11 @@ import ProjectCard from 'src/components/projects/ProjectCard.component';
 import TitleBar from 'src/components/projects/TitleBar.component';
 import projectsData from 'src/assets/projects.json';
 import { Project } from 'src/common/types';
-import { ProjectTagEnum } from 'src/common/enums';
-import { useState } from 'react';
+import { PagePositionEnum, ProjectTagEnum } from 'src/common/enums';
+import { useContext, useEffect, useRef, useState } from 'react';
 import DividierLine from 'src/components/common/DividerLine.component';
+import useIsInViewport from 'src/common/helpers';
+import PagePositionContext from 'src/context/PagePosition.context';
 
 function ProjectScreen(): JSX.Element {
   const [projectsTag, setProjectsTag] = useState<ProjectTagEnum>(
@@ -16,8 +18,20 @@ function ProjectScreen(): JSX.Element {
     tag: p.tag as ProjectTagEnum,
   }));
 
+  const projectsRef = useRef(null);
+  const isInViewport = useIsInViewport(projectsRef, '0%');
+
+  const { setCurrentPosition } = useContext(PagePositionContext);
+
+  useEffect(() => {
+    if (isInViewport) {
+      setCurrentPosition(PagePositionEnum.Projects);
+    }
+  }, [isInViewport, setCurrentPosition]);
+
   return (
     <div
+      ref={projectsRef}
       id="projects"
       className="projects-container container flex flex-col items-center py-3"
     >

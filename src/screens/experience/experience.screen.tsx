@@ -8,9 +8,23 @@ import experienceData from 'src/assets/experience.json';
 import { Experience } from 'src/common/types';
 import COLORS from 'src/common/colors';
 import DividierLine from 'src/components/common/DividerLine.component';
+import { useContext, useEffect, useRef } from 'react';
+import useIsInViewport from 'src/common/helpers';
+import { PagePositionEnum } from 'src/common/enums';
+import PagePositionContext from 'src/context/PagePosition.context';
 
 function ExperienceScreen(): JSX.Element {
   const experience: Experience[] = experienceData;
+  const experienceRef = useRef<HTMLDivElement>(null);
+  const isInViewport = useIsInViewport(experienceRef, '-50%');
+
+  const { setCurrentPosition } = useContext(PagePositionContext);
+
+  useEffect(() => {
+    if (isInViewport) {
+      setCurrentPosition(PagePositionEnum.Experience);
+    }
+  }, [isInViewport, setCurrentPosition]);
 
   return (
     <div
@@ -21,6 +35,7 @@ function ExperienceScreen(): JSX.Element {
       <h2
         className="text-xl mb-3"
         style={{ color: COLORS.alternativeTextColor }}
+        ref={experienceRef}
       >
         Where I&apos;ve Worked
       </h2>

@@ -1,4 +1,5 @@
-import { ProjectTagEnum } from 'src/common/enums';
+import React from 'react';
+import { PagePositionEnum, ProjectTagEnum } from 'src/common/enums';
 
 export interface Experience {
   id: number;
@@ -18,3 +19,10 @@ export interface Project {
   demoLink?: string;
   repoLink: string;
 }
+
+export type PagePositionContextType = {
+  currentPosition: PagePositionEnum | null;
+  setCurrentPosition: React.Dispatch<
+    React.SetStateAction<PagePositionEnum | null>
+  >;
+};
