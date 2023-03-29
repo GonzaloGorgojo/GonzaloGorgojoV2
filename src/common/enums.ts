@@ -1,6 +1,12 @@
-// eslint-disable-next-line import/prefer-default-export
 export enum ProjectTagEnum {
   FrontEnd = 'Front End',
   Mobile = 'Mobile',
-  BackEnd = ' Back End',
+  BackEnd = 'Back End',
+}
+
+export enum PagePositionEnum {
+  About = 'about',
+  Experience = 'experience',
+  Projects = 'projects',
+  Footer = 'footer',
 }

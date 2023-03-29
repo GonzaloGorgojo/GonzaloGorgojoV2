@@ -6,11 +6,11 @@ type Props = {
 };
 
 function TitleBar({ setProjectsTag }: Props): JSX.Element {
-  const [active, setActive] = useState<number>(2);
+  const [active, setActive] = useState<number>(3);
   const titles = [
-    { id: 1, title: 'Front End' },
-    { id: 2, title: 'Mobile' },
-    { id: 3, title: 'Back End' },
+    { id: 1, title: ProjectTagEnum.FrontEnd },
+    { id: 2, title: ProjectTagEnum.Mobile },
+    { id: 3, title: ProjectTagEnum.BackEnd },
   ];
 
   const setActiveProjectsType = (type: { id: number; title: string }) => {

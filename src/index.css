@@ -139,6 +139,7 @@
   background-color: var(--alternative-bg-color);
 }
 .projects-card-title {
+  text-align: center;
   color: var(--main-text-color);
   font-weight: bolder;
 }
