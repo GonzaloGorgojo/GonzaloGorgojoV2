@@ -1,7 +1,9 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import COLORS from 'src/common/colors';
 import { PagePositionEnum } from 'src/common/enums';
 import PagePositionContext from 'src/context/PagePosition.context';
+import { MdEmojiPeople, MdWorkOutline } from 'react-icons/md';
+import { TbCertificate, TbTools } from 'react-icons/tb';
 
 function PageIndex(): JSX.Element {
   const { currentPosition } = useContext(PagePositionContext);
@@ -18,7 +20,16 @@ function PageIndex(): JSX.Element {
                   ? COLORS.mainTextColor
                   : '',
             }}
-          />
+          >
+            <MdEmojiPeople
+              style={{
+                color:
+                  currentPosition === PagePositionEnum.About
+                    ? COLORS.mainBgColor
+                    : COLORS.alternativeTextColor,
+              }}
+            />
+          </div>
         </a>
         <div className="index-top-line" />
         <a href="#experience">
@@ -30,7 +41,16 @@ function PageIndex(): JSX.Element {
                   ? COLORS.mainTextColor
                   : '',
             }}
-          />
+          >
+            <MdWorkOutline
+              style={{
+                color:
+                  currentPosition === PagePositionEnum.Experience
+                    ? COLORS.mainBgColor
+                    : COLORS.alternativeTextColor,
+              }}
+            />
+          </div>
         </a>
         <div className="index-middle-line" />
         <a href="#projects">
@@ -42,7 +62,16 @@ function PageIndex(): JSX.Element {
                   ? COLORS.mainTextColor
                   : '',
             }}
-          />
+          >
+            <TbTools
+              style={{
+                color:
+                  currentPosition === PagePositionEnum.Projects
+                    ? COLORS.mainBgColor
+                    : COLORS.alternativeTextColor,
+              }}
+            />
+          </div>
         </a>
         <div className="index-bottom-line" />
         <a href="#footer">
@@ -54,7 +83,16 @@ function PageIndex(): JSX.Element {
                   ? COLORS.mainTextColor
                   : '',
             }}
-          />
+          >
+            <TbCertificate
+              style={{
+                color:
+                  currentPosition === PagePositionEnum.Footer
+                    ? COLORS.mainBgColor
+                    : COLORS.alternativeTextColor,
+              }}
+            />
+          </div>
         </a>
       </div>
     </div>

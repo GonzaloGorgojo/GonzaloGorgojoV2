@@ -18,12 +18,11 @@
 /* components/social/ContactLinks */
 .social-links {
   color: var(--alternative-text-color);
-  font-size: large;
   margin: 10px;
 }
 .social-links:hover {
   color: var(--main-text-color);
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 /* components/common/DividerLine */
@@ -40,8 +39,9 @@
   border-color: var(--main-text-color);
   border-width: 1.5px;
   margin: 12px 10px 17px 10px;
-  width: 17px;
-  height: 17px;
+  width: 23px;
+  height: 23px;
+  padding: 2px;
 }
 .index-circle:hover {
   background-color: var(--background-hover-color);
@@ -51,24 +51,24 @@
   height: 18px;
   background-color: var(--main-text-color);
   position: absolute;
-  left: 18px;
-  top: 29px;
+  left: 21px;
+  top: 34px;
 }
 .index-middle-line {
   width: 1.5px;
   height: 18px;
   background-color: var(--main-text-color);
   position: absolute;
-  left: 18px;
-  top: 63px;
+  left: 21px;
+  top: 74px;
 }
 .index-bottom-line {
   width: 1.5px;
   height: 18px;
   background-color: var(--main-text-color);
   position: absolute;
-  left: 18px;
-  top: 97px;
+  left: 21px;
+  top: 115px;
 }
 
 /* screens/about/about */
@@ -131,7 +131,7 @@
   border: 1px solid var(--alternative-text-color);
   border-radius: 5px;
   margin: 0.4rem;
-  padding: 0.1rem;
+  padding: 0.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;

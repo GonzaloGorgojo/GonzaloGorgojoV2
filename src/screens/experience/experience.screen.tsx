@@ -33,7 +33,7 @@ function ExperienceScreen(): JSX.Element {
     >
       <DividierLine />
       <h2
-        className="text-xl mb-3"
+        className="mb-3 font-mono text-lg sm:text-xl"
         style={{ color: COLORS.alternativeTextColor }}
         ref={experienceRef}
       >
@@ -48,7 +48,7 @@ function ExperienceScreen(): JSX.Element {
                 className="vertical-timeline-element--work"
                 contentStyle={{
                   background: COLORS.alternativeBgColor,
-                  color: COLORS.alternativeTextColor,
+                  color: COLORS.mainTextColor,
                 }}
                 contentArrowStyle={{
                   borderRight: `7px solid ${COLORS.alternativeTextColor}`,
@@ -61,7 +61,7 @@ function ExperienceScreen(): JSX.Element {
                 icon={<BsLaptop />}
               >
                 <h3
-                  className="vertical-timeline-element-title"
+                  className="vertical-timeline-element-title text-lg sm:text-xl"
                   style={{ color: COLORS.mainTextColor }}
                 >
                   {e.position}

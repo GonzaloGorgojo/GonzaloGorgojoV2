@@ -8,17 +8,17 @@ function ContactLinks(): JSX.Element {
         target="_blank"
         rel="noreferrer"
       >
-        <FiLinkedin className="social-links" />
+        <FiLinkedin className="social-links text-2xl" />
       </a>
       <a
         href="https://github.com/GonzaloGorgojo"
         target="_blank"
         rel="noreferrer"
       >
-        <FiGithub className="social-links" />
+        <FiGithub className="social-links text-2xl" />
       </a>
       <a href="mailto:gongorgojo@gmail.com">
-        <FiMail className="social-links" />
+        <FiMail className="social-links text-2xl" />
       </a>
     </div>
   );

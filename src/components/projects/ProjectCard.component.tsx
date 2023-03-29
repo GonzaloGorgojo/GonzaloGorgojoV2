@@ -16,7 +16,7 @@ function ProjectCard(props: Props) {
   return (
     <div
       className={
-        tag === showTag ? 'projects-card w-1/3 md:w-3/12 sm:w-3/12' : 'hidden'
+        tag === showTag ? 'projects-card w-1/3 md:w-3/12 sm:w-3/12 ' : 'hidden'
       }
     >
       <p className="projects-card-title text-sm md:text-lg ">{description}</p>

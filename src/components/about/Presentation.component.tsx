@@ -9,11 +9,11 @@ function Presentation() {
       </div>
 
       <div className=" flex flex-col items-center ">
-        <h1 className="header-title text-xl">
+        <h1 className="header-title font-mono text-lg sm:text-xl">
           Hi, my name is <span>Gonzalo Gorgojo</span> 👋
         </h1>
         <ReactTypical
-          className="header-title"
+          className="header-title font-mono "
           steps={['I Destroy.. Ups', 2000, 'I Build Software 🤠', 3000]}
           loop={Infinity}
           wrapper="h4"
@@ -21,7 +21,7 @@ function Presentation() {
       </div>
 
       <div className=" header-title  w-2/3 flex flex-col items-center mt-8">
-        <p className="header-content text-justify">
+        <p className="header-content text-justify font-serif text-lg sm:text-xl">
           I&apos;m a detail-oriented <span>software developer</span> passionate
           about creating exceptional products that meet user and client needs. I
           thrive in collaborative environments that foster innovation. Outside

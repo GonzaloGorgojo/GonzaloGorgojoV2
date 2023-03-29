@@ -28,7 +28,10 @@ function EducationCard(props: Props) {
         </a>
       </div>
 
-      <p className="my-1" style={{ color: COLORS.alternativeTextColor }}>
+      <p
+        className="my-1 text-center"
+        style={{ color: COLORS.alternativeTextColor }}
+      >
         {date}
       </p>
     </div>
