@@ -11,7 +11,7 @@ import PagePositionContext from 'src/context/PagePosition.context';
 
 function ProjectScreen(): JSX.Element {
   const [projectsTag, setProjectsTag] = useState<ProjectTagEnum>(
-    ProjectTagEnum.Mobile
+    ProjectTagEnum.BackEnd
   );
   const projects: Project[] = projectsData.map((p) => ({
     ...p,
@@ -46,7 +46,7 @@ function ProjectScreen(): JSX.Element {
       <div className="w-3/4 mb-5">
         <TitleBar setProjectsTag={setProjectsTag} />
       </div>
-      <div className="w-3/4 grid grid-cols-2">
+      <div className="w-3/4 flex flex-wrap justify-center">
         {projects.map((p) => {
           return (
             <ProjectCard

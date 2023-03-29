@@ -1,7 +1,7 @@
 export enum ProjectTagEnum {
   FrontEnd = 'Front End',
   Mobile = 'Mobile',
-  BackEnd = ' Back End',
+  BackEnd = 'Back End',
 }
 
 export enum PagePositionEnum {

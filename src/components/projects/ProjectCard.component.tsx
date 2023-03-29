@@ -14,8 +14,12 @@ function ProjectCard(props: Props) {
   const { tag, technologies, demoLink, repoLink, description, showTag } = props;
 
   return (
-    <div className={tag === showTag ? 'projects-card' : 'hidden'}>
-      <h3 className="projects-card-title">{description}</h3>
+    <div
+      className={
+        tag === showTag ? 'projects-card w-1/2 md:w-3/12 sm:w-3/12' : 'hidden'
+      }
+    >
+      <p className="projects-card-title">{description}</p>
       <div className="projects-card-technos">
         {technologies.map((t) => (
           <p key={t}>- {t}</p>
