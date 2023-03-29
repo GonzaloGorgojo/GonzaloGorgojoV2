@@ -16,18 +16,18 @@ function ProjectCard(props: Props) {
   return (
     <div
       className={
-        tag === showTag ? 'projects-card w-1/2 md:w-3/12 sm:w-3/12' : 'hidden'
+        tag === showTag ? 'projects-card w-1/3 md:w-3/12 sm:w-3/12' : 'hidden'
       }
     >
-      <p className="projects-card-title">{description}</p>
-      <div className="projects-card-technos">
+      <p className="projects-card-title text-sm md:text-lg ">{description}</p>
+      <div className="projects-card-technos text-sm md:text-base">
         {technologies.map((t) => (
           <p key={t}>- {t}</p>
         ))}
       </div>
       <div className="flex flex-row  w-full justify-around mt-2 mb-1">
         <div className="flex flex-col">
-          <p className="projects-icon-title">Repo</p>
+          <p className="projects-icon-title text-sm md:text-base">Repo</p>
           <a
             className="projects-icon-link"
             href={repoLink}
@@ -40,7 +40,7 @@ function ProjectCard(props: Props) {
 
         {demoLink ? (
           <div className="flex flex-col">
-            <p className="projects-icon-title">Demo</p>
+            <p className="projects-icon-title text-sm md:text-base">Demo</p>
             <a
               className="projects-icon-link"
               href={demoLink}

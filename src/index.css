@@ -141,7 +141,6 @@
 .projects-card-title {
   text-align: center;
   color: var(--main-text-color);
-  font-weight: bolder;
 }
 .projects-card-technos {
   color: var(--alternative-text-color);
