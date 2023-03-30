@@ -11,7 +11,7 @@ type Props = {
 function EducationCard(props: Props) {
   const { institution, certificationLink, date, description } = props;
   return (
-    <div className="education-card flex flex-col justify-between items-center p-1">
+    <div className="education-card flex flex-col items-center p-1 col-span-2 justify-center ">
       <p style={{ color: COLORS.mainTextColor }} className=" text-center">
         {description}
       </p>
@@ -22,7 +22,7 @@ function EducationCard(props: Props) {
           rel="noreferrer"
           className="w-full flex flex-row justify-center items-center hover:text-indigo-300"
         >
-          <p className="my-1 mr-1">{institution}</p>
+          <p className="my-1 mr-1 text-sm sm:text-base">{institution}</p>
 
           <BiLinkExternal />
         </a>

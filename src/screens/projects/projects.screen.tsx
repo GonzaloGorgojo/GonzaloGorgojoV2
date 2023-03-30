@@ -38,7 +38,7 @@ function ProjectScreen(): JSX.Element {
       <DividierLine />
 
       <h2
-        className="text-xl mb-3"
+        className="mb-3 font-mono text-lg sm:text-xl"
         style={{ color: COLORS.alternativeTextColor }}
       >
         What I&apos;ve Built

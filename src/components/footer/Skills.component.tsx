@@ -14,7 +14,10 @@ import {
 function Skills() {
   return (
     <div className="flex flex-col justify-between items-center w-3/4">
-      <h2 className="text-xl" style={{ color: COLORS.alternativeTextColor }}>
+      <h2
+        className="font-mono text-lg sm:text-xl"
+        style={{ color: COLORS.alternativeTextColor }}
+      >
         Skills & Tools
       </h2>
       <div

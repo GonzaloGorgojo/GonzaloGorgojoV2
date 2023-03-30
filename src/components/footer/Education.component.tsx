@@ -10,10 +10,13 @@ function Education() {
       id="footer"
       className="flex flex-col justify-between items-center w-3/4 mb-2"
     >
-      <h2 className="text-xl" style={{ color: COLORS.alternativeTextColor }}>
+      <h2
+        className="font-mono text-lg sm:text-xl"
+        style={{ color: COLORS.alternativeTextColor }}
+      >
         Education & Certifications
       </h2>
-      <div className="w-full mt-4 grid grid-cols-2 gap-4 ">
+      <div className="w-full mt-4 grid grid-cols-[repeat(auto-fit,_16.666666%)] justify-center gap-4 ">
         {education.map((e) => {
           return (
             <EducationCard

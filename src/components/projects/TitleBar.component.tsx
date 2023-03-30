@@ -19,7 +19,7 @@ function TitleBar({ setProjectsTag }: Props): JSX.Element {
   };
 
   return (
-    <div className="flex flex-row space-x-2 mx-4">
+    <div className="flex flex-row space-x-2 mx-4 ">
       {titles.map((t) => (
         <button
           key={t.id}
