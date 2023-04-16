@@ -20,7 +20,7 @@ function ProjectCard(props: Props) {
       }
     >
       <p className="projects-card-title text-sm md:text-lg ">{description}</p>
-      <div className="projects-card-technos text-sm md:text-base">
+      <div className="projects-card-technos text-sm md:text-base text-center">
         {technologies.map((t) => (
           <p key={t}>- {t}</p>
         ))}

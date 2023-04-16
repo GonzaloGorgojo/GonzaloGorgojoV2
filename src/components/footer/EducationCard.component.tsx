@@ -22,7 +22,9 @@ function EducationCard(props: Props) {
           rel="noreferrer"
           className="w-full flex flex-row justify-center items-center hover:text-indigo-300"
         >
-          <p className="my-1 mr-1 text-sm sm:text-base">{institution}</p>
+          <p className="my-1 mr-1 text-xs sm:text-base text-center">
+            {institution}
+          </p>
 
           <BiLinkExternal />
         </a>
