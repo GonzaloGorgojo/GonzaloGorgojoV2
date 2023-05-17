@@ -3,7 +3,7 @@
     "id": 1,
     "tag": "Mobile",
     "technologies": ["React Native", "Expo", "Expo Router", "Clerk"],
-    "description": "faves APP",
+    "description": "Faves APP",
     "repoLink": "https://github.com/GonzaloGorgojo/rn-faves"
   },
   {
