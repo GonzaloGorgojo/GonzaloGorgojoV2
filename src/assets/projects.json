@@ -51,5 +51,12 @@
     "technologies": ["Typescript", "Express", "Mongo", "Docker"],
     "description": "Contacts management API",
     "repoLink": "https://github.com/GonzaloGorgojo/ts-contacts-api"
+  },
+  {
+    "id": 8,
+    "tag": "Back End",
+    "technologies": ["C++"],
+    "description": "CLI Todo App with file reading and writing",
+    "repoLink": "https://github.com/GonzaloGorgojo/cpp-cli-todo-app"
   }
 ]

@@ -14,17 +14,6 @@
   },
   {
     "id": 2,
-    "position": "Freelance React Native Developer",
-    "company": "Simple Solutions",
-    "companyLink": "https://simplesolutions.com.ar/",
-    "description": [
-      "Development, maintenance and improvements in a React Native App."
-    ],
-    "start": "Jun 2021",
-    "end": "Oct 2022"
-  },
-  {
-    "id": 3,
     "position": "Back End Developer",
     "company": "Redbee",
     "companyLink": "https://redbee.io/en/",
@@ -37,14 +26,15 @@
     "end": "Feb 2022"
   },
   {
-    "id": 4,
+    "id": 3,
     "position": "Full Stack Developer",
     "company": "Simple Solutions",
     "companyLink": "https://simplesolutions.com.ar/",
     "description": [
+      "Development, maintenance, and improvements in a REACT NATIVE App.",
       "API Development with Node Js.",
-      "Development of Cloud Function querying Cloud SQL in Google Cloud Platform.",
-      "Maintenance and improvements in a REACT-NATIVE app."
+      "Bot Development with Python.",
+      "Development of Cloud Function querying Cloud SQL in Google Cloud Platform."
     ],
     "start": "Aug 2020",
     "end": "Apr 2021"
