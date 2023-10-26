@@ -20,9 +20,11 @@ function ProjectCard(props: Props) {
       }
     >
       <p className="projects-card-title text-sm md:text-lg ">{description}</p>
-      <div className="projects-card-technos text-sm md:text-base text-center">
+      <div className="projects-card-technos text-sm md:text-base text-center flex flex-wrap w-full justify-center">
         {technologies.map((t) => (
-          <p key={t}>- {t}</p>
+          <p key={t} className="mx-1">
+            - {t}{' '}
+          </p>
         ))}
       </div>
       <div className="flex flex-row  w-full justify-around mt-2 mb-1">

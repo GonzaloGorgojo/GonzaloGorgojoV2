@@ -2,7 +2,6 @@ import { useContext, useEffect, useRef } from 'react';
 import { PagePositionEnum } from 'src/common/enums';
 import useIsInViewport from 'src/common/helpers';
 import Presentation from 'src/components/about/Presentation.component';
-import ResumeButton from 'src/components/about/ResumeButton.component';
 import PagePositionContext from 'src/context/PagePosition.context';
 
 function AboutScreen() {
@@ -22,7 +21,6 @@ function AboutScreen() {
       id="about"
       className="about-container flex flex-col h-screen justify-center items-center"
     >
-      <ResumeButton />
       <Presentation />
     </div>
   );

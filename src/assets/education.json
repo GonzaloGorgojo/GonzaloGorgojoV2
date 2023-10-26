@@ -22,17 +22,17 @@
   },
   {
     "id": 4,
+    "institution": "Epic React by Kent C Dodds.",
+    "certificationLink": "src/assets/epicReact.pdf",
+    "date": "Oct 2023",
+    "description": "Epic React"
+  },
+  {
+    "id": 5,
     "institution": "CoderHouse",
     "certificationLink": "https://drive.google.com/file/d/107a7vGOEc4PjIXI4QCPPYfBpn0ec0Tgi/view",
     "date": "Nov 2020",
     "description": "Javascript"
-  },
-  {
-    "id": 5,
-    "institution": "EducacionIt",
-    "certificationLink": "https://drive.google.com/file/d/1iTdSr7r7eNL2qBiCkhSFUUZ6OxK6_KxH/view",
-    "date": "May 2020",
-    "description": "Database Administration and SQL"
   },
   {
     "id": 6,

@@ -1,5 +1,5 @@
 import Avatar from 'src/assets/gon.jpg';
-import { ReactTypical } from '@deadcoder0904/react-typical';
+import Typed from 'react-typed';
 
 function Presentation() {
   return (
@@ -12,11 +12,12 @@ function Presentation() {
         <h1 className="header-title font-mono text-base sm:text-xl">
           Hi, my name is <span>Gonzalo Gorgojo</span> 👋
         </h1>
-        <ReactTypical
-          className="header-title font-mono "
-          steps={['I Destroy.. Ups', 2000, 'I Build Software 🤠', 3000]}
-          loop={Infinity}
-          wrapper="h4"
+        <Typed
+          className="typed-title font-mono text-base sm:text-xl ml-1"
+          strings={['I destroy.. Ups', 'I build Software 🤠']}
+          typeSpeed={40}
+          backSpeed={50}
+          loop
         />
       </div>
 

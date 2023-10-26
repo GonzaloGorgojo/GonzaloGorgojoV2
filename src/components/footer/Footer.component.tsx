@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <div className="my-2 w-1/5">
         <a
-          href="https://github.com/GonzaloGorgojo/GonzaloGorgojoV3"
+          href="https://github.com/GonzaloGorgojo/gonzalogorgojo.github.io"
           target="_blank"
           rel="noreferrer"
           style={{ color: COLORS.mainTextColor }}
