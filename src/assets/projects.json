@@ -33,9 +33,10 @@
   {
     "id": 5,
     "tag": "Back End",
-    "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
-    "description": "Users management API",
-    "repoLink": "https://github.com/GonzaloGorgojo/nest-experience-api"
+    "technologies": ["Javascript"],
+    "description": "⭐ Gnome-Shell Extension to track crypto prices",
+    "repoLink": "https://github.com/GonzaloGorgojo/Gnome-Shell-Crypto-Tracker",
+    "demoLink": "https://extensions.gnome.org/extension/6777/crypto-trackergongorgojocom/"
   },
   {
     "id": 6,
@@ -58,5 +59,12 @@
     "technologies": ["C++"],
     "description": "CLI Todo App with file reading and writing",
     "repoLink": "https://github.com/GonzaloGorgojo/cpp-cli-todo-app"
+  },
+  {
+    "id": 9,
+    "tag": "Back End",
+    "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
+    "description": "Users management API",
+    "repoLink": "https://github.com/GonzaloGorgojo/nest-experience-api"
   }
 ]

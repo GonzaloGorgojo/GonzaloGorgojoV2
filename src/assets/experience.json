@@ -5,9 +5,13 @@
     "company": "Blanc Labs",
     "companyLink": "https://blanclabs.com/",
     "description": [
-      "Developing a mobile app with React Native.",
-      "Developing microservices with NestJs and Typescript.",
-      "Building front-end with VueJs."
+      "Engineered and deployed microservices using NestJs and Typescript, with a primary focus on enhancing backend scalability, efficiency, and performance.",
+      "Architected and developed a user-centric mobile app with React Native.",
+      "Implemented responsive front-end interfaces with VueJs, improving user satisfaction.",
+      "Designed and optimized databases for efficient data storage and retrieval.",
+      "Ensured HIPAA compliance by working with Smile CDR and adhering to FHIR standards.",
+      "Created thorough documentation of work for future reference and onboarding.",
+      "Collaborated with the DevOps team to debug and enhance pipeline for continuous integration and deployment."
     ],
     "start": "Feb 2022",
     "end": "Present"
@@ -18,9 +22,10 @@
     "company": "Redbee",
     "companyLink": "https://redbee.io/en/",
     "description": [
-      "Developed microservices with NodeJs and Typescript.",
-      "Developed microservices with Kotlin.",
-      "Test automation with cypress."
+      "Developed efficient and scalable microservices utilizing NodeJs and Typescript.",
+      "Implemented microservices with Kotlin.",
+      "Automated testing processes with Cypress, resulting in a reduction in testing time and improved product quality.",
+      "Orchestrated CI/CD pipelines with Jenkins-Docker-Portainer, streamlining deployment processes and reducing deployment time."
     ],
     "start": "Apr 2021",
     "end": "Feb 2022"
@@ -31,10 +36,11 @@
     "company": "Simple Solutions",
     "companyLink": "https://simplesolutions.com.ar/",
     "description": [
-      "Development, maintenance, and improvements in a REACT NATIVE App.",
-      "API Development with Node Js.",
-      "Bot Development with Python.",
-      "Development of Cloud Function querying Cloud SQL in Google Cloud Platform."
+      "Enhanced user experience and functionality of a React Native App through continuous development, maintenance, and feature improvements.",
+      "Engineered robust and efficient APIs with Node Js, facilitating seamless communication between front-end and back-end systems.",
+      "Created a Python-based Bot, automating repetitive tasks and reducing manual workload.",
+      "Developed and optimized Cloud Functions, leveraging Google Cloud Platform to query Cloud SQL, improving application performance and reducing query time.",
+      "Designed and implemented client-facing web applications."
     ],
     "start": "Aug 2020",
     "end": "Apr 2021"

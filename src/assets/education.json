@@ -3,7 +3,7 @@
     "id": 1,
     "institution": "Teclab",
     "certificationLink": "https://www.teclab.edu.ar/carrera/tecnico-superior-en-programacion/",
-    "date": "Jan 2020 - Nov 2022",
+    "date": "Mar 2021 - Dec 2022",
     "description": "Associate Degree in Computer Programming"
   },
   {
@@ -23,7 +23,7 @@
   {
     "id": 4,
     "institution": "Epic React by Kent C Dodds.",
-    "certificationLink": "src/assets/epicReact.pdf",
+    "certificationLink": "https://drive.google.com/file/d/1O54AOCexwuRlY1Jbd57H7Wo3YdZEDp_u/view?usp=sharing",
     "date": "Oct 2023",
     "description": "Epic React"
   },

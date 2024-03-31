@@ -9,7 +9,7 @@ function PageIndex(): JSX.Element {
   const { currentPosition } = useContext(PagePositionContext);
 
   return (
-    <div className="flex flex-col fixed left-2 top-1/2">
+    <div className="flex flex-col fixed left-1 md:left-2 top-1/2">
       <div className="relative">
         <a href="#about">
           <div

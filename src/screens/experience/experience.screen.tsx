@@ -39,7 +39,7 @@ function ExperienceScreen(): JSX.Element {
       >
         Where I&apos;ve Worked
       </h2>
-      <div className="w-3/4">
+      <div className="w-4/5">
         <VerticalTimeline lineColor={`${COLORS.alternativeTextColor}`}>
           {experience.map((e) => {
             return (

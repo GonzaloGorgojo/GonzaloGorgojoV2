@@ -3,90 +3,63 @@ import { TbBrandTypescript, TbBrandGolang } from 'react-icons/tb';
 import { FaGoogle, FaAws, FaReact, FaDocker, FaJenkins } from 'react-icons/fa';
 import { DiNodejs } from 'react-icons/di';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
+
 import {
   SiMongodb,
   SiRedis,
   SiNestjs,
   SiPostman,
   SiJira,
+  SiExpress,
+  SiRedux,
+  SiVuedotjs,
+  SiVite,
+  SiExpo,
+  SiKubernetes,
 } from 'react-icons/si';
+
+function SkillCard({ icon, name }: { icon: JSX.Element; name: string }) {
+  return (
+    <div className="flex flex-col items-center">
+      {icon}
+      <p className="text-xs my-1">{name}</p>
+    </div>
+  );
+}
 
 function Skills() {
   return (
-    <div className="flex flex-col justify-between items-center w-3/4">
+    <div className="w-3/4">
       <h2
-        className="font-mono text-lg sm:text-xl"
+        className="font-mono text-lg sm:text-xl text-center"
         style={{ color: COLORS.alternativeTextColor }}
       >
         Skills & Tools
       </h2>
       <div
-        className="flex flex-row justify-around  w-full text-3xl items-center m-3"
+        className="my-2 grid grid-cols-4 gap-2 md:grid-cols-7 md:gap-6"
         style={{ color: COLORS.alternativeTextColor }}
       >
-        <div className="flex flex-col items-center">
-          <TbBrandTypescript />
-          <p className="text-xs my-1">Typescript</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <SiNestjs />
-          <p className="text-xs my-1">NestJs</p>
-        </div>
-
-        <div className="flex flex-col items-center">
-          <FaDocker />
-          <p className="text-xs my-1">Docker</p>
-        </div>
-
-        <div className="flex flex-col items-center">
-          <FaAws />
-          <p className="text-xs my-1">AWS</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <AiOutlineConsoleSql />
-          <p className="text-xs my-1">SQL</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <SiMongodb />
-          <p className="text-xs my-1">MongoDb</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <TbBrandGolang />
-          <p className="text-xs my-1">Golang</p>
-        </div>
-      </div>
-      <div
-        style={{ color: COLORS.alternativeTextColor }}
-        className="flex flex-row justify-around  w-full text-3xl items-center m-3"
-      >
-        <div className="flex flex-col items-center">
-          <FaReact />
-          <p className="text-xs my-1">React/Native</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <DiNodejs />
-          <p className="text-xs my-1">Node</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <FaJenkins />
-          <p className="text-xs my-1">Jenkins</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <FaGoogle />
-          <p className="text-xs my-1">GCP</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <SiRedis />
-          <p className="text-xs my-1">Redis</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <SiPostman />
-          <p className="text-xs my-1">Postman</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <SiJira />
-          <p className="text-xs my-1">Jira</p>
-        </div>
+        <SkillCard icon={<DiNodejs />} name="Node" />
+        <SkillCard icon={<TbBrandTypescript />} name="Typescript" />
+        <SkillCard icon={<SiNestjs />} name="NestJs" />
+        <SkillCard icon={<SiExpress />} name="Express" />
+        <SkillCard icon={<TbBrandGolang />} name="Golang" />
+        <SkillCard icon={<FaReact />} name="React/Native" />
+        <SkillCard icon={<SiRedux />} name="Redux" />
+        <SkillCard icon={<SiVuedotjs />} name="VueJS" />
+        <SkillCard icon={<SiVite />} name="Vite" />
+        <SkillCard icon={<SiExpo />} name="Expo" />
+        <SkillCard icon={<AiOutlineConsoleSql />} name="SQL" />
+        <SkillCard icon={<SiMongodb />} name="MongoDb" />
+        <SkillCard icon={<FaAws />} name="AWS" />
+        <SkillCard icon={<FaGoogle />} name="GCP" />
+        <SkillCard icon={<FaDocker />} name="Docker" />
+        <SkillCard icon={<SiKubernetes />} name="Kubernetes" />
+        <SkillCard icon={<FaJenkins />} name="Jenkins" />
+        <SkillCard icon={<SiRedis />} name="Redis" />
+        <SkillCard icon={<SiPostman />} name="Postman" />
+        <SkillCard icon={<SiJira />} name="Jira" />
       </div>
     </div>
   );

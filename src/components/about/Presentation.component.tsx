@@ -25,9 +25,9 @@ function Presentation() {
         <p className="header-content text-justify font-serif text-base sm:text-xl">
           I&apos;m a detail-oriented <span>software developer</span> passionate
           about creating exceptional products that meet user and client needs. I
-          thrive in collaborative environments that foster innovation. Outside
-          of work, I enjoy exploring new technologies, staying active through
-          sports, and continuing to learn in my field.
+          excel in collaborative environments where innovative solutions are
+          fostered. Outside of work, I enjoy exploring new technologies and
+          staying active through sports.
         </p>
       </div>
     </>

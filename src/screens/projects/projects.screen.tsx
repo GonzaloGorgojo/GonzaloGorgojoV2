@@ -46,7 +46,7 @@ function ProjectScreen(): JSX.Element {
       <div className="w-3/4 mb-5">
         <TitleBar setProjectsTag={setProjectsTag} />
       </div>
-      <div className="w-3/4 flex flex-wrap justify-center">
+      <div className="w-11/12 md:w-3/4 flex flex-wrap justify-center">
         {projects.map((p) => {
           return (
             <ProjectCard
