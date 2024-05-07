@@ -15,7 +15,6 @@ import {
   SiVuedotjs,
   SiVite,
   SiExpo,
-  SiKubernetes,
 } from 'react-icons/si';
 
 function SkillCard({ icon, name }: { icon: JSX.Element; name: string }) {
@@ -55,7 +54,6 @@ function Skills() {
         <SkillCard icon={<FaAws />} name="AWS" />
         <SkillCard icon={<FaGoogle />} name="GCP" />
         <SkillCard icon={<FaDocker />} name="Docker" />
-        <SkillCard icon={<SiKubernetes />} name="Kubernetes" />
         <SkillCard icon={<FaJenkins />} name="Jenkins" />
         <SkillCard icon={<SiRedis />} name="Redis" />
         <SkillCard icon={<SiPostman />} name="Postman" />

@@ -23,11 +23,13 @@ function Presentation() {
 
       <div className=" header-title  w-2/3 flex flex-col items-center mt-8">
         <p className="header-content text-justify font-serif text-base sm:text-xl">
-          I&apos;m a detail-oriented <span>software developer</span> passionate
-          about creating exceptional products that meet user and client needs. I
-          excel in collaborative environments where innovative solutions are
-          fostered. Outside of work, I enjoy exploring new technologies and
-          staying active through sports.
+          I&apos;m a <span>Full Stack Software Developer</span> with four years
+          of diverse experience in fintech, healthcare, and real estate sectors.
+          Proven ability to collaborate effectively, delivering cutting-edge
+          products that drive business growth. Specializing in enhancing
+          scalability, efficiency, and overall performance to optimize outcomes.
+          Outside of work, I enjoy exploring new technologies and staying active
+          through sports.
         </p>
       </div>
     </>
