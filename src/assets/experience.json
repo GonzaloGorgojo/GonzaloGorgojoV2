@@ -6,12 +6,12 @@
     "companyLink": "https://blanclabs.com/",
     "description": [
       "Engineered and deployed microservices using NestJs and Typescript, with a primary focus on enhancing backend scalability, efficiency, and performance.",
-      "Architected and developed a user-centric mobile app with React Native.",
+      "Architected and developed a user-centric PoC mobile app with React Native.",
       "Implemented responsive front-end interfaces with VueJs, improving user satisfaction.",
-      "Designed and optimized databases for efficient data storage and retrieval.",
+      "Designed and optimized databases for efficient data storage and retrieval by implementing a comprehensive indexing strategy tailored to the specific needs of the system. As a result, we observed significant enhancements in query performance, with average execution times decreasing by up to 30%.",
       "Ensured HIPAA compliance by working with Smile CDR and adhering to FHIR standards.",
       "Created thorough documentation of work for future reference and onboarding.",
-      "Collaborated with the DevOps team to debug and enhance pipeline for continuous integration and deployment.",
+      "Collaborated with the DevOps team to debug and enhance the pipeline for continuous integration and deployment.",
       "Onboarded new team members, introducing 4 team members to the project architecture and infrastructure."
     ],
     "start": "Feb 2022",
@@ -23,8 +23,7 @@
     "company": "Redbee",
     "companyLink": "https://redbee.io/en/",
     "description": [
-      "Developed efficient and scalable microservices utilizing NodeJs and Typescript.",
-      "Implemented microservices with Kotlin.",
+      "Engineered efficient and scalable microservices using Node.js and Typescript, adhering to the principles of hexagonal architecture. By decoupling components and emphasizing modularity, the architecture facilitated flexibility and maintainability while ensuring optimal performance and scalability.",
       "Automated testing processes with Cypress, resulting in a reduction in testing time and improved product quality.",
       "Orchestrated CI/CD pipelines with Jenkins-Docker-Portainer, streamlining deployment processes and reducing deployment time."
     ],
@@ -37,11 +36,11 @@
     "company": "Simple Solutions",
     "companyLink": "https://simplesolutions.com.ar/",
     "description": [
-      "Enhanced user experience and functionality of a React Native App through continuous development, maintenance, and feature improvements.",
-      "Engineered robust and efficient APIs with Node Js, facilitating seamless communication between front-end and back-end systems.",
-      "Created a Python-based Bot, automating repetitive tasks and reducing manual workload.",
-      "Developed and optimized Cloud Functions, leveraging Google Cloud Platform to query Cloud SQL, improving application performance and reducing query time.",
-      "Designed and implemented client-facing web applications."
+      "Continuously enhanced the user experience and functionality of a React Native App through iterative development cycles, addressing user feedback and implementing feature improvements to ensure a seamless and engaging experience.",
+      "Built a robust and efficient API with Node Js, facilitating seamless communication between front-end and back-end systems.",
+      "Developed a serverless Python-based Bot to automate repetitive tasks, significantly reducing manual workload by 100%.",
+      "Created and optimized Cloud Functions, leveraging Google Cloud Platform to query Cloud SQL, improving application performance and reducing query time.",
+      "Engaged in web development projects for diverse clients, delivering tailored solutions to meet their specific requirements and objectives."
     ],
     "start": "Aug 2020",
     "end": "Apr 2021"
