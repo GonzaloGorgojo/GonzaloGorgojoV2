@@ -5,11 +5,11 @@ import AboutScreen from 'src/screens/about/about.screen';
 import ExperienceScreen from 'src/screens/experience/experience.screen';
 import FooterScreen from 'src/screens/footer/footer.screen';
 import { useMemo, useState } from 'react';
-import PagePositionContext from './context/PagePosition.context';
-import { PagePositionEnum } from './common/enums';
-import ResumeButton from './components/about/ResumeButton.component';
+import { PagePositionEnum } from 'src/common/enums';
+import PagePositionContext from 'src/context/PagePosition.context';
+import ResumeButton from 'src/components/about/ResumeButton.component';
 
-function App(): JSX.Element {
+function Root(): JSX.Element {
   const [currentPosition, setCurrentPosition] =
     useState<PagePositionEnum | null>(null);
 
@@ -17,6 +17,7 @@ function App(): JSX.Element {
     () => ({ currentPosition, setCurrentPosition }),
     [currentPosition, setCurrentPosition]
   );
+
   return (
     <div className="w-full">
       <PagePositionContext.Provider value={fireBaseProviderValue}>
@@ -32,4 +33,4 @@ function App(): JSX.Element {
   );
 }
 
-export default App;
+export default Root;
