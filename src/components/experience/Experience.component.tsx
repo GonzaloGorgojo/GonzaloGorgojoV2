@@ -13,7 +13,7 @@ import useIsInViewport from 'src/common/helpers';
 import { PagePositionEnum } from 'src/common/enums';
 import PagePositionContext from 'src/context/PagePosition.context';
 
-function ExperienceScreen(): JSX.Element {
+function ExperienceSection(): JSX.Element {
   const experience: Experience[] = experienceData;
   const experienceRef = useRef<HTMLDivElement>(null);
   const isInViewport = useIsInViewport(experienceRef, '-50%');
@@ -91,4 +91,4 @@ function ExperienceScreen(): JSX.Element {
   );
 }
 
-export default ExperienceScreen;
+export default ExperienceSection;

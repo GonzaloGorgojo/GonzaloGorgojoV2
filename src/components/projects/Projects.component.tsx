@@ -9,7 +9,7 @@ import DividierLine from 'src/components/common/DividerLine.component';
 import useIsInViewport from 'src/common/helpers';
 import PagePositionContext from 'src/context/PagePosition.context';
 
-function ProjectScreen(): JSX.Element {
+function ProjectSection(): JSX.Element {
   const [projectsTag, setProjectsTag] = useState<ProjectTagEnum>(
     ProjectTagEnum.BackEnd
   );
@@ -65,4 +65,4 @@ function ProjectScreen(): JSX.Element {
   );
 }
 
-export default ProjectScreen;
+export default ProjectSection;

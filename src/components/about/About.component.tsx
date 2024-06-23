@@ -4,7 +4,7 @@ import useIsInViewport from 'src/common/helpers';
 import Presentation from 'src/components/about/Presentation.component';
 import PagePositionContext from 'src/context/PagePosition.context';
 
-function AboutScreen() {
+function AboutSection() {
   const aboutRef = useRef(null);
   const isInViewport = useIsInViewport(aboutRef, '10%');
   const { setCurrentPosition } = useContext(PagePositionContext);
@@ -26,4 +26,4 @@ function AboutScreen() {
   );
 }
 
-export default AboutScreen;
+export default AboutSection;

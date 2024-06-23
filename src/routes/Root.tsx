@@ -1,13 +1,13 @@
 import ContactLinks from 'src/components/social/ContantLinks.component';
-import ProjectScreen from 'src/screens/projects/projects.screen';
 import PageIndex from 'src/components/page-index/PageIndex.component';
-import AboutScreen from 'src/screens/about/about.screen';
-import ExperienceScreen from 'src/screens/experience/experience.screen';
-import FooterScreen from 'src/screens/footer/footer.screen';
 import { useMemo, useState } from 'react';
 import { PagePositionEnum } from 'src/common/enums';
 import PagePositionContext from 'src/context/PagePosition.context';
 import ResumeButton from 'src/components/about/ResumeButton.component';
+import ProjectSection from 'src/components/projects/Projects.component';
+import FooterSection from 'src/components/footer/Footer.component';
+import ExperienceSection from 'src/components/experience/Experience.component';
+import AboutSection from 'src/components/about/About.component';
 
 function Root(): JSX.Element {
   const [currentPosition, setCurrentPosition] =
@@ -24,10 +24,10 @@ function Root(): JSX.Element {
         <ResumeButton />
         <PageIndex />
         <ContactLinks />
-        <AboutScreen />
-        <ExperienceScreen />
-        <ProjectScreen />
-        <FooterScreen />
+        <AboutSection />
+        <ExperienceSection />
+        <ProjectSection />
+        <FooterSection />
       </PagePositionContext.Provider>
     </div>
   );
