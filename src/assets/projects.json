@@ -66,5 +66,19 @@
     "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
     "description": "Users management API",
     "repoLink": "https://github.com/GonzaloGorgojo/nest-experience-api"
+  },
+  {
+    "id": 10,
+    "tag": "Back End",
+    "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
+    "description": "Newsletters Backend Service (SMTP)",
+    "repoLink": "https://github.com/GonzaloGorgojo/nest-vue-newsletter"
+  },
+  {
+    "id": 11,
+    "tag": "Front End",
+    "technologies": ["VueJS", "Vuetify", "Vue-Router", "Nginx"],
+    "description": "Admin Newsletter Dashboard",
+    "repoLink": "https://github.com/GonzaloGorgojo/nest-vue-newsletter"
   }
 ]
