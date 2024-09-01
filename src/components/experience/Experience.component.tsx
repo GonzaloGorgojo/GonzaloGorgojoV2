@@ -70,6 +70,7 @@ function ExperienceSection(): JSX.Element {
                   @{' '}
                   <a
                     className="experience-company-link"
+                    style={{ color: COLORS.linkColor }}
                     href={e.companyLink}
                     target="_blank"
                     rel="noreferrer"
