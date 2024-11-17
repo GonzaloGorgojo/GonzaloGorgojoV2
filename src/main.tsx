@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createHashRouter } from 'react-router-dom';
-import Root from './routes/Root';
 import './index.css';
 import ErrorPage from './routes/ErrorPage';
 import RecommededPage from './routes/Recommended';
+import Root from './routes/Root';
 
 const router = createHashRouter([
   {
@@ -15,6 +15,7 @@ const router = createHashRouter([
   {
     path: '/recommended',
     element: <RecommededPage />,
+    errorElement: <ErrorPage />,
   },
 ]);
 

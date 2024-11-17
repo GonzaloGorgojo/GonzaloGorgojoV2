@@ -1,16 +1,15 @@
+import { useContext, useEffect, useRef } from 'react';
+import { BsLaptop } from 'react-icons/bs';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { BsLaptop } from 'react-icons/bs';
 import experienceData from 'src/assets/experience.json';
-import { Experience } from 'src/common/types';
-import COLORS from 'src/common/colors';
-import DividierLine from 'src/components/common/DividerLine.component';
-import { useContext, useEffect, useRef } from 'react';
-import useIsInViewport from 'src/common/helpers';
 import { PagePositionEnum } from 'src/common/enums';
+import useIsInViewport from 'src/common/helpers';
+import { Experience } from 'src/common/types';
+import DividierLine from 'src/components/common/DividerLine.component';
 import PagePositionContext from 'src/context/PagePosition.context';
 
 function ExperienceSection(): JSX.Element {
@@ -29,48 +28,43 @@ function ExperienceSection(): JSX.Element {
   return (
     <div
       id="experience"
-      className="experience-container flex flex-col justify-center items-center "
+      className="bg-main-bg-color flex flex-col justify-center items-center "
     >
       <DividierLine />
       <h2
-        className="mb-3 font-mono text-lg sm:text-xl"
-        style={{ color: COLORS.alternativeTextColor }}
+        className="mb-3 font-mono text-lg sm:text-xl text-alternative-text-color"
         ref={experienceRef}
       >
         Where I&apos;ve Worked
       </h2>
       <div className="w-4/5">
-        <VerticalTimeline lineColor={`${COLORS.alternativeTextColor}`}>
+        <VerticalTimeline lineColor="#ccd6f6">
           {experience.map((e) => {
             return (
               <VerticalTimelineElement
                 key={e.id}
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: COLORS.alternativeBgColor,
-                  color: COLORS.mainTextColor,
+                  background: '#263a7d',
+                  color: '#64ffda',
                 }}
                 contentArrowStyle={{
-                  borderRight: `7px solid ${COLORS.alternativeTextColor}`,
+                  borderRight: `7px solid #ccd6f6`,
                 }}
                 date={`${e.start} - ${e.end} `}
                 iconStyle={{
-                  background: COLORS.alternativeBgColor,
-                  color: COLORS.alternativeTextColor,
+                  background: '#263a7d',
+                  color: '#ccd6f6',
                 }}
                 icon={<BsLaptop />}
               >
-                <h3
-                  className="vertical-timeline-element-title text-lg sm:text-xl"
-                  style={{ color: COLORS.mainTextColor }}
-                >
+                <h3 className="vertical-timeline-element-title text-lg sm:text-xl text-main-text-color">
                   {e.position}
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   @{' '}
                   <a
-                    className="experience-company-link"
-                    style={{ color: COLORS.linkColor }}
+                    className="hover:text-main-text-color text-link-color"
                     href={e.companyLink}
                     target="_blank"
                     rel="noreferrer"
@@ -78,7 +72,7 @@ function ExperienceSection(): JSX.Element {
                     {e.company}
                   </a>
                 </h4>
-                <p style={{ color: COLORS.alternativeTextColor }}>
+                <p className="text-alternative-text-color">
                   {e.description.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
