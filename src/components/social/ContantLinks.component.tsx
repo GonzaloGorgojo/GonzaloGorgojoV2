@@ -1,4 +1,4 @@
-import { FiLinkedin, FiGithub, FiMail } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 
 function ContactLinks(): JSX.Element {
   return (
@@ -8,17 +8,17 @@ function ContactLinks(): JSX.Element {
         target="_blank"
         rel="noreferrer"
       >
-        <FiLinkedin className="social-links text-2xl" />
+        <FiLinkedin className="hover:text-main-text-color hover:text-3xl text-alternative-text-color m-2 text-2xl" />
       </a>
       <a
         href="https://github.com/GonzaloGorgojo"
         target="_blank"
         rel="noreferrer"
       >
-        <FiGithub className="social-links text-2xl" />
+        <FiGithub className="hover:text-main-text-color hover:text-3xl text-alternative-text-color m-2 text-2xl" />
       </a>
       <a href="mailto:gongorgojo@gmail.com">
-        <FiMail className="social-links text-2xl" />
+        <FiMail className="hover:text-main-text-color hover:text-3xl text-alternative-text-color m-2 text-2xl" />
       </a>
     </div>
   );

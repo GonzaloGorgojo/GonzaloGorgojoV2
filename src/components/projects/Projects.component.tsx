@@ -1,25 +1,15 @@
-import COLORS from 'src/common/colors';
-import ProjectCard from 'src/components/projects/ProjectCard.component';
-import TitleBar from 'src/components/projects/TitleBar.component';
-import projectsData from 'src/assets/projects.json';
-import { Project } from 'src/common/types';
-import { PagePositionEnum, ProjectTagEnum } from 'src/common/enums';
-import { useContext, useEffect, useRef, useState } from 'react';
-import DividierLine from 'src/components/common/DividerLine.component';
+import { useContext, useEffect, useRef } from 'react';
+import { FiGithub } from 'react-icons/fi';
+import myprojects from 'src/assets/projects.json';
+import { PagePositionEnum } from 'src/common/enums';
 import useIsInViewport from 'src/common/helpers';
+import DividierLine from 'src/components/common/DividerLine.component';
 import PagePositionContext from 'src/context/PagePosition.context';
 
 function ProjectSection(): JSX.Element {
-  const [projectsTag, setProjectsTag] = useState<ProjectTagEnum>(
-    ProjectTagEnum.BackEnd
-  );
-  const projects: Project[] = projectsData.map((p) => ({
-    ...p,
-    tag: p.tag as ProjectTagEnum,
-  }));
-
   const projectsRef = useRef(null);
   const isInViewport = useIsInViewport(projectsRef, '0%');
+  const projects = myprojects;
 
   const { setCurrentPosition } = useContext(PagePositionContext);
 
@@ -33,33 +23,33 @@ function ProjectSection(): JSX.Element {
     <div
       ref={projectsRef}
       id="projects"
-      className="projects-container flex flex-col items-center py-3"
+      className="flex flex-col items-center bg-main-bg-color"
     >
       <DividierLine />
 
-      <h2
-        className="mb-3 font-mono text-lg sm:text-xl"
-        style={{ color: COLORS.alternativeTextColor }}
-      >
+      <h2 className="mb-3 font-mono text-lg sm:text-xl text-alternative-text-color">
         What I&apos;ve Built
       </h2>
-      <div className="w-3/4 mb-5">
-        <TitleBar setProjectsTag={setProjectsTag} />
-      </div>
-      <div className="w-11/12 md:w-3/4 flex flex-wrap justify-center">
-        {projects.map((p) => {
-          return (
-            <ProjectCard
-              key={p.id}
-              description={p.description}
-              technologies={p.technologies}
-              repoLink={p.repoLink}
-              demoLink={p.demoLink ? p.demoLink : ''}
-              tag={p.tag}
-              showTag={projectsTag}
-            />
-          );
-        })}
+
+      <div className=" w-3/4 px-2">
+        {projects.map((p) => (
+          <div key={p.id} className="border-b border-main-text-color mb-2">
+            <h1 className="text-main-text-color">{p.title}</h1>
+            <div className="flex flex-row  items-center space-x-4">
+              <p className="text-alternative-text-color w-3/5">
+                {p.description}
+              </p>
+              <a
+                className="text-alternative-text-color h-7 w-7 text-2xl"
+                href={p.repoLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FiGithub />
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

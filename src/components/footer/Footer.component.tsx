@@ -22,7 +22,7 @@ function FooterSection() {
   return (
     <div
       ref={footerRef}
-      className="footer-container flex flex-col justify-center items-center"
+      className="bg-main-bg-color flex flex-col justify-center items-center"
     >
       <DividierLine />
       <Skills />
