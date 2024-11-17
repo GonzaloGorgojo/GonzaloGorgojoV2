@@ -8,12 +8,33 @@ import { TbCertificate, TbTools } from 'react-icons/tb';
 function PageIndex(): JSX.Element {
   const { currentPosition } = useContext(PagePositionContext);
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleKeyDown = (event: React.KeyboardEvent, id: string) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      scrollToSection(id);
+    }
+  };
+
   return (
     <div className="flex flex-col fixed left-1 md:left-2 top-1/2">
       <div className="relative">
-        <a href="#about">
+        <div
+          onClick={() => scrollToSection('about')}
+          onKeyDown={(e) => handleKeyDown(e, 'about')}
+          role="button"
+          tabIndex={0}
+          className="cursor-pointer"
+          aria-label="Scroll to About section"
+        >
           <div
-            className="index-circle rounded-full "
+            className="index-circle rounded-full"
             style={{
               backgroundColor:
                 currentPosition === PagePositionEnum.About
@@ -30,11 +51,18 @@ function PageIndex(): JSX.Element {
               }}
             />
           </div>
-        </a>
+        </div>
         <div className="index-top-line" />
-        <a href="#experience">
+        <div
+          onClick={() => scrollToSection('experience')}
+          onKeyDown={(e) => handleKeyDown(e, 'experience')}
+          role="button"
+          tabIndex={0}
+          className="cursor-pointer"
+          aria-label="Scroll to Experience section"
+        >
           <div
-            className="index-circle rounded-full "
+            className="index-circle rounded-full"
             style={{
               backgroundColor:
                 currentPosition === PagePositionEnum.Experience
@@ -51,9 +79,16 @@ function PageIndex(): JSX.Element {
               }}
             />
           </div>
-        </a>
+        </div>
         <div className="index-middle-line" />
-        <a href="#projects">
+        <div
+          onClick={() => scrollToSection('projects')}
+          onKeyDown={(e) => handleKeyDown(e, 'projects')}
+          role="button"
+          tabIndex={0}
+          className="cursor-pointer"
+          aria-label="Scroll to Projects section"
+        >
           <div
             className="index-circle rounded-full"
             style={{
@@ -72,9 +107,16 @@ function PageIndex(): JSX.Element {
               }}
             />
           </div>
-        </a>
+        </div>
         <div className="index-bottom-line" />
-        <a href="#footer">
+        <div
+          onClick={() => scrollToSection('footer')}
+          onKeyDown={(e) => handleKeyDown(e, 'footer')}
+          role="button"
+          tabIndex={0}
+          className="cursor-pointer"
+          aria-label="Scroll to Footer section"
+        >
           <div
             className="index-circle rounded-full"
             style={{
@@ -93,7 +135,7 @@ function PageIndex(): JSX.Element {
               }}
             />
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );

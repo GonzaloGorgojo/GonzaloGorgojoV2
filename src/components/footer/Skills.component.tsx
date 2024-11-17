@@ -15,6 +15,7 @@ import {
   SiVuedotjs,
   SiVite,
   SiExpo,
+  SiNextdotjs,
 } from 'react-icons/si';
 
 function SkillCard({ icon, name }: { icon: JSX.Element; name: string }) {
@@ -39,9 +40,10 @@ function Skills() {
         className="my-2 grid grid-cols-4 gap-2 md:grid-cols-7 md:gap-6"
         style={{ color: COLORS.alternativeTextColor }}
       >
-        <SkillCard icon={<DiNodejs />} name="Node" />
-        <SkillCard icon={<TbBrandTypescript />} name="Typescript" />
+        <SkillCard icon={<SiNextdotjs />} name="NextJS" />
         <SkillCard icon={<SiNestjs />} name="NestJs" />
+        <SkillCard icon={<TbBrandTypescript />} name="Typescript" />
+        <SkillCard icon={<DiNodejs />} name="Node" />
         <SkillCard icon={<SiExpress />} name="Express" />
         <SkillCard icon={<TbBrandGolang />} name="Golang" />
         <SkillCard icon={<FaReact />} name="React/Native" />
