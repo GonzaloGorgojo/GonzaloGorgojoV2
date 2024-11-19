@@ -29,7 +29,7 @@ function SkillCard({ icon, name }: { icon: JSX.Element; name: string }) {
 function Skills() {
   return (
     <div className="w-3/4">
-      <h2 className="font-mono text-lg sm:text-xl text-center text-alternative-text-color">
+      <h2 className="mb-3 font-mono text-lg sm:text-xl text-alternative-text-color text-center">
         Skills & Tools
       </h2>
       <div className="my-2 grid grid-cols-4 gap-2 md:grid-cols-7 md:gap-6 text-alternative-text-color">

@@ -4,15 +4,32 @@
     "tag": "Back End",
     "technologies": ["Go", "SQLite"],
     "title": "Caching Proxy Server",
-    "description": "Service written Go, that starts a caching proxy server. The server forwards requests to a target server and caches the responses in a sqlite file. If the same request is made again, the cached response is returned instead of forwarding the request to the target server.",
+    "description": "Cli tool that starts a caching proxy server. The server forwards requests to a target server and caches the responses in a sqlite file. If the same request is made again, the cached response is returned instead of forwarding the request to the target server.",
     "repoLink": "https://github.com/GonzaloGorgojo/go-caching-proxy"
+  },
+  {
+    "id": 10,
+    "tag": "Back End",
+    "technologies": [
+      "Nestjs",
+      "Typescript",
+      "Docker",
+      "Postgres",
+      "VueJS",
+      "Vuetify",
+      "Vue-Router",
+      "Nginx"
+    ],
+    "title": "Complete Newsletter App",
+    "description": "Robust Newsletters Backend Service with Email (SMTP) and FrontEnd Dashboard",
+    "repoLink": "https://github.com/GonzaloGorgojo/nest-vue-newsletter"
   },
   {
     "id": 5,
     "tag": "Back End",
-    "technologies": ["Javascript"],
-    "title": "",
-    "description": "Gnome-Shell Extension to track crypto prices",
+    "technologies": ["Javascript", "Gnome", "Linux"],
+    "title": "Gnome-Shell Extension",
+    "description": "Simple Gnome extension to keep track of BTC and ETH prices against USD and EUR.",
     "repoLink": "https://github.com/GonzaloGorgojo/Gnome-Shell-Crypto-Tracker",
     "demoLink": "https://extensions.gnome.org/extension/6777/crypto-trackergongorgojocom/"
   },
@@ -20,86 +37,53 @@
     "id": 8,
     "tag": "Back End",
     "technologies": ["C++"],
-    "title": "",
-    "description": "CLI Todo App with file reading and writing",
+    "title": "CLI Todo App",
+    "description": "Simple command line todo app that allows you to create and manage a todo list. You can add, delete, mark as done, list, and report tasks using this app.",
     "repoLink": "https://github.com/GonzaloGorgojo/cpp-cli-todo-app"
   },
-  {
-    "id": 1,
-    "tag": "Mobile",
-    "technologies": ["React Native", "Expo", "Expo Router", "Clerk"],
-    "title": "",
-    "description": "Faves APP",
-    "repoLink": "https://github.com/GonzaloGorgojo/rn-faves"
-  },
+
   {
     "id": 2,
     "tag": "Front End",
     "technologies": ["React", "React-Bootstrap", "React-Router"],
-    "title": "",
-    "description": "Burger review App",
+    "title": "Burger reviews",
+    "description": "Frontend App that shows users reviews about burgers",
     "demoLink": "https://gonzalogorgojo.github.io/react-burger-review/",
     "repoLink": "https://github.com/GonzaloGorgojo/react-burger-review"
   },
   {
-    "id": 3,
-    "tag": "Front End",
-    "technologies": ["React", "React Bootstrap", "Scss"],
-    "title": "",
-    "description": "Portfolio V1",
-    "demoLink": "https://gonzalogorgojo.github.io/GonzaloGorgojoV1/",
-    "repoLink": "https://github.com/GonzaloGorgojo/GonzaloGorgojoV1"
+    "id": 6,
+    "tag": "Back End",
+    "technologies": ["Node", "ExpressJs", "MongoDb", "Mongoose"],
+    "title": "Burger reviews",
+    "description": "Burger review API.",
+    "demoLink": "https://burger-reviews.onrender.com/api/documentation/",
+    "repoLink": "https://github.com/GonzaloGorgojo/express-burger-review-api"
   },
   {
     "id": 4,
     "tag": "Front End",
     "technologies": ["Javascript", "Bootstrap"],
-    "title": "",
-    "description": "Pokedex",
+    "title": "Pokedex",
+    "description": "Pokedex made with vanilla Javascript",
     "demoLink": "https://gonzalogorgojo.github.io/js-pokedex/",
     "repoLink": "https://github.com/GonzaloGorgojo/js-pokedex"
-  },
-
-  {
-    "id": 6,
-    "tag": "Back End",
-    "technologies": ["Node", "ExpressJs", "MongoDb", "Mongoose"],
-    "title": "",
-    "description": "Burger review API",
-    "demoLink": "https://burger-reviews.onrender.com/api/documentation/",
-    "repoLink": "https://github.com/GonzaloGorgojo/express-burger-review-api"
-  },
-  {
-    "id": 7,
-    "tag": "Back End",
-    "technologies": ["Typescript", "Express", "Mongo", "Docker"],
-    "title": "",
-    "description": "Contacts management API",
-    "repoLink": "https://github.com/GonzaloGorgojo/ts-contacts-api"
   },
   {
     "id": 9,
     "tag": "Back End",
     "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
-    "title": "",
+    "title": "Users management",
     "description": "Users management API",
     "repoLink": "https://github.com/GonzaloGorgojo/nest-experience-api"
   },
   {
-    "id": 10,
-    "tag": "Back End",
-    "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
-    "title": "",
-    "description": "Newsletters Backend Service (SMTP)",
-    "repoLink": "https://github.com/GonzaloGorgojo/nest-vue-newsletter"
-  },
-
-  {
-    "id": 12,
+    "id": 3,
     "tag": "Front End",
-    "technologies": ["VueJS", "Vuetify", "Vue-Router", "Nginx"],
-    "title": "",
-    "description": "Admin Newsletter Dashboard",
-    "repoLink": "https://github.com/GonzaloGorgojo/nest-vue-newsletter"
+    "technologies": ["React", "React Bootstrap", "Scss"],
+    "title": "Personal Portfolio",
+    "description": "v1 of my personal portfolio",
+    "demoLink": "https://gonzalogorgojo.github.io/GonzaloGorgojoV1/",
+    "repoLink": "https://github.com/GonzaloGorgojo/GonzaloGorgojoV1"
   }
 ]

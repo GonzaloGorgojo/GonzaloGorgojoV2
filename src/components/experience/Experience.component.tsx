@@ -58,7 +58,7 @@ function ExperienceSection(): JSX.Element {
                 }}
                 icon={<BsLaptop />}
               >
-                <h3 className="vertical-timeline-element-title text-lg sm:text-xl text-main-text-color">
+                <h3 className="vertical-timeline-element-title font-mono text-base sm:text-xl text-main-text-color">
                   {e.position}
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
@@ -74,7 +74,9 @@ function ExperienceSection(): JSX.Element {
                 </h4>
                 <p className="text-alternative-text-color">
                   {e.description.map((item) => (
-                    <li key={item}>{item}</li>
+                    <li key={item} className="font-serif text-base sm:text-lg">
+                      {item}
+                    </li>
                   ))}
                 </p>
               </VerticalTimelineElement>

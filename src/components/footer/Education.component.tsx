@@ -17,9 +17,9 @@ function Education() {
           return (
             <div
               key={e.description}
-              className="bg-alternative-bg-color border-2 border-main-text-color rounded-lg flex flex-col items-center p-1 col-span-2 justify-center "
+              className="bg-alternative-bg-color border border-main-text-color rounded-lg flex flex-col items-center p-1 col-span-2 justify-center "
             >
-              <p className=" text-center text-main-text-color">
+              <p className=" text-center text-main-text-color text-sm font-mono">
                 {e.description}
               </p>
               <div className="text-alternative-text-color">
@@ -29,7 +29,7 @@ function Education() {
                   rel="noreferrer"
                   className="w-full flex flex-row justify-center items-center hover:text-indigo-300"
                 >
-                  <p className="my-1 mr-1 text-xs sm:text-base text-center">
+                  <p className="my-1 mr-1 text-xs sm:text-base text-center font-mono">
                     {e.institution}
                   </p>
 
@@ -37,7 +37,7 @@ function Education() {
                 </a>
               </div>
 
-              <p className="my-1 text-center text-alternative-text-color">
+              <p className="my-1 text-center text-alternative-text-color font-mono text-sm">
                 {e.date}
               </p>
             </div>
