@@ -29,7 +29,7 @@
     "tag": "Back End",
     "technologies": ["Javascript", "Gnome", "Linux"],
     "title": "Gnome-Shell Extension",
-    "description": "Simple Gnome extension to keep track of BTC and ETH prices against USD and EUR.",
+    "description": "Simple Gnome extension to keep track of BTC and ETH prices against USD and EUR. Over 300 people have already downloaded it.",
     "repoLink": "https://github.com/GonzaloGorgojo/Gnome-Shell-Crypto-Tracker",
     "demoLink": "https://extensions.gnome.org/extension/6777/crypto-trackergongorgojocom/"
   },
@@ -41,25 +41,6 @@
     "description": "Simple command line todo app that allows you to create and manage a todo list. You can add, delete, mark as done, list, and report tasks using this app.",
     "repoLink": "https://github.com/GonzaloGorgojo/cpp-cli-todo-app"
   },
-
-  {
-    "id": 2,
-    "tag": "Front End",
-    "technologies": ["React", "React-Bootstrap", "React-Router"],
-    "title": "Burger reviews",
-    "description": "Frontend App that shows users reviews about burgers",
-    "demoLink": "https://gonzalogorgojo.github.io/react-burger-review/",
-    "repoLink": "https://github.com/GonzaloGorgojo/react-burger-review"
-  },
-  {
-    "id": 6,
-    "tag": "Back End",
-    "technologies": ["Node", "ExpressJs", "MongoDb", "Mongoose"],
-    "title": "Burger reviews",
-    "description": "Burger review API.",
-    "demoLink": "https://burger-reviews.onrender.com/api/documentation/",
-    "repoLink": "https://github.com/GonzaloGorgojo/express-burger-review-api"
-  },
   {
     "id": 4,
     "tag": "Front End",
@@ -68,22 +49,5 @@
     "description": "Pokedex made with vanilla Javascript",
     "demoLink": "https://gonzalogorgojo.github.io/js-pokedex/",
     "repoLink": "https://github.com/GonzaloGorgojo/js-pokedex"
-  },
-  {
-    "id": 9,
-    "tag": "Back End",
-    "technologies": ["Nestjs", "Typescript", "Docker", "Postgres"],
-    "title": "Users management",
-    "description": "Users management API",
-    "repoLink": "https://github.com/GonzaloGorgojo/nest-experience-api"
-  },
-  {
-    "id": 3,
-    "tag": "Front End",
-    "technologies": ["React", "React Bootstrap", "Scss"],
-    "title": "Personal Portfolio",
-    "description": "v1 of my personal portfolio",
-    "demoLink": "https://gonzalogorgojo.github.io/GonzaloGorgojoV1/",
-    "repoLink": "https://github.com/GonzaloGorgojo/GonzaloGorgojoV1"
   }
 ]
