@@ -2,6 +2,25 @@
   {
     "id": 1,
     "position": "Full Stack Developer",
+    "company": "Velocia",
+    "companyLink": "https://velocia.io/",
+    "description": [
+      "Architecting and developing scalable, high-performance applications, ensuring best practices in system design, security, and maintainability.",
+      "Building and maintaining robust, full-stack solutions using React, Next.js, Node.js, PostgreSQL, and AWS, optimizing both front-end and back-end performance.",
+      "Enhancing system stability and reliability by proactively monitoring, diagnosing, and resolving bottlenecks to support high availability.",
+      "Implementing automated testing (unit, integration, and E2E) to maintain high code coverage and minimize production regressions.",
+      "Driving DevOps best practices, improving CI/CD pipelines, infrastructure automation, and deployment strategies.",
+      "Leading and participating in code reviews, ensuring high-quality, scalable, and maintainable software solutions.",
+      "Improving and refactoring existing code, reducing technical debt while optimizing performance and efficiency.",
+      "Collaborating cross-functionally with product managers, UX designers, and stakeholders to align technical implementations with business goals.",
+      "Providing mentorship and leadership, supporting junior developers and fostering a culture of continuous learning and innovation."
+    ],
+    "start": "Jan 2025",
+    "end": "Present"
+  },
+  {
+    "id": 2,
+    "position": "Full Stack Developer",
     "company": "Blanc Labs",
     "companyLink": "https://blanclabs.com/",
     "description": [
@@ -10,16 +29,13 @@
       "Implemented responsive front-end interfaces with VueJs, improving user satisfaction.",
       "Designed and optimized databases for efficient data storage and retrieval, implementing a tailored indexing strategy, resulting in a 30% decrease in query execution times.",
       "Dockerized the app microservices for local development, reducing onboarding process overhead & setup times.",
-      "Ensured HIPAA compliance by working with Smile CDR and adhering to FHIR standards.",
-      "Created thorough documentation of work for future reference and onboarding.",
-      "Collaborated with the DevOps team to debug and enhance the pipeline for continuous integration and deployment.",
-      "Onboarded new team members, introducing 4 team members to the project architecture and infrastructure."
+      "Ensured HIPAA compliance by working with Smile CDR and adhering to FHIR standards."
     ],
     "start": "Feb 2022",
-    "end": "Present"
+    "end": "Jan 2025"
   },
   {
-    "id": 2,
+    "id": 3,
     "position": "Back End Developer",
     "company": "Redbee",
     "companyLink": "https://redbee.io/en/",
@@ -32,16 +48,14 @@
     "end": "Feb 2022"
   },
   {
-    "id": 3,
+    "id": 4,
     "position": "Full Stack Developer",
     "company": "Simple Solutions",
     "companyLink": "https://simplesolutions.com.ar/",
     "description": [
-      "Continuously enhanced the user experience and functionality of a React Native App through iterative development cycles, addressing user feedback and implementing feature improvements to ensure a seamless and engaging experience.",
+      "Continuously enhanced the user experience and functionality of a React Native App through iterative development cycles. Addressed user feedback and implemented feature improvements iteratively.",
       "Built a robust and efficient API with Node Js, facilitating seamless communication between front-end and back-end systems.",
-      "Developed a serverless Python-based Bot to automate repetitive tasks, significantly reducing manual workload by 100%.",
-      "Created and optimized Cloud Functions, leveraging Google Cloud Platform to query Cloud SQL, improving application performance and reducing query time.",
-      "Engaged in web development projects for diverse clients, delivering tailored solutions to meet their specific requirements and objectives."
+      "Developed a serverless Python-based Bot to automate repetitive tasks, significantly reducing manual workload by 100% leveraging Google Cloud Platform with Cloud Scheduler triggering one Cloud Function queryin Cloud SQL."
     ],
     "start": "Aug 2020",
     "end": "Apr 2021"

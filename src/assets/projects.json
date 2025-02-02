@@ -40,14 +40,5 @@
     "title": "CLI Todo App",
     "description": "Simple command line todo app that allows you to create and manage a todo list. You can add, delete, mark as done, list, and report tasks using this app.",
     "repoLink": "https://github.com/GonzaloGorgojo/cpp-cli-todo-app"
-  },
-  {
-    "id": 4,
-    "tag": "Front End",
-    "technologies": ["Javascript", "Bootstrap"],
-    "title": "Pokedex",
-    "description": "Pokedex made with vanilla Javascript",
-    "demoLink": "https://gonzalogorgojo.github.io/js-pokedex/",
-    "repoLink": "https://github.com/GonzaloGorgojo/js-pokedex"
   }
 ]
